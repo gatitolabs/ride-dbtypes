@@ -1,6 +1,6 @@
 {
   "name": "ride-dbtypes",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Proyecto RIDE: Documentos NoSQL para Firestore",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
