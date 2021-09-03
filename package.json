@@ -1,11 +1,13 @@
 {
   "name": "ride-dbtypes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Proyecto RIDE: Documentos NoSQL para Firestore",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "docs": "node_modules/.bin/typedoc index.ts",
+    "ci": "npm run build && npm run docs"
   },
   "repository": {
     "type": "git",
