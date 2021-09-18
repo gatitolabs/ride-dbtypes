@@ -4,36 +4,115 @@
 
 ## Table of contents
 
+### Enumerations
+
+- [FirestoreCollections](enums/FirestoreCollections.md)
+
 ### Interfaces
 
+- [AdminUser](interfaces/AdminUser.md)
+- [AverageRating](interfaces/AverageRating.md)
 - [Biker](interfaces/Biker.md)
-- [Client](interfaces/Client.md)
+- [Business](interfaces/Business.md)
+- [BusinessContact](interfaces/BusinessContact.md)
+- [Customer](interfaces/Customer.md)
+- [DeliveryAvailable](interfaces/DeliveryAvailable.md)
+- [Order](interfaces/Order.md)
+- [OrderItem](interfaces/OrderItem.md)
+- [Product](interfaces/Product.md)
+- [Rating](interfaces/Rating.md)
+- [Tag](interfaces/Tag.md)
 
-### Variables
+### Type aliases
 
-- [bikerColection](modules.md#bikercolection)
-- [clientColection](modules.md#clientcolection)
+- [AdminRole](modules.md#adminrole)
+- [BikerStatus](modules.md#bikerstatus)
+- [BikerUserStatus](modules.md#bikeruserstatus)
+- [BusinessContactType](modules.md#businesscontacttype)
+- [BusinessUserStatus](modules.md#businessuserstatus)
+- [OrderStatus](modules.md#orderstatus)
+- [PaymentMethod](modules.md#paymentmethod)
 
-## Variables
+## Type aliases
 
-### bikerColection
+### AdminRole
 
-• `Const` **bikerColection**: ``"bikers"``
+Ƭ **AdminRole**: ``"Full"`` \| ``"Other"``
 
-Coleccion de Firebasse para los usuarios ciclistas
+Tipo de usuario adminsitrador
 
 #### Defined in
 
-index.ts:12
+src/admin/admin.ts:4
 
 ___
 
-### clientColection
+### BikerStatus
 
-• `Const` **clientColection**: ``"clients"``
+Ƭ **BikerStatus**: ``"Disconnected"`` \| ``"Available"`` \| ``"Delivering"``
 
-Coleccion de Firebasse para los usuarios clientes
+Si el usuario ciclista esta disponible o no para hacer entregas
 
 #### Defined in
 
-index.ts:9
+src/biker/biker.ts:5
+
+___
+
+### BikerUserStatus
+
+Ƭ **BikerUserStatus**: ``"Pending"`` \| ``"Accepted"`` \| ``"Rejected"``
+
+Status de la cuenta de usuario ciclista
+
+#### Defined in
+
+src/biker/biker.ts:2
+
+___
+
+### BusinessContactType
+
+Ƭ **BusinessContactType**: ``"Facebook"`` \| ``"Instagram"`` \| ``"Website"`` \| ``"Other Phone"`` \| ``"Fax"``
+
+tipo del contacto adicional, como redes sociales o sitio web
+
+#### Defined in
+
+src/business/business.ts:7
+
+___
+
+### BusinessUserStatus
+
+Ƭ **BusinessUserStatus**: ``"Pending"`` \| ``"Accepted"`` \| ``"Rejected"``
+
+Status de la cuenta de usuario de un negocio
+
+#### Defined in
+
+src/business/business.ts:4
+
+___
+
+### OrderStatus
+
+Ƭ **OrderStatus**: ``"Processing"`` \| ``"Sent"`` \| ``"InTransit"`` \| ``"Arriving"`` \| ``"Finished"`` \| ``"Rejected"``
+
+Status de la Orden
+
+#### Defined in
+
+src/order/order.ts:2
+
+___
+
+### PaymentMethod
+
+Ƭ **PaymentMethod**: ``"SINPE"`` \| ``"Cash"``
+
+Metodos de pago
+
+#### Defined in
+
+src/order/order.ts:11
