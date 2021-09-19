@@ -1,6 +1,34 @@
-export { Client } from './src/client/client';
-export { Biker } from './src/biker/biker';
-/** Coleccion de Firebasse para los usuarios clientes */
-export declare const clientColection = "clients";
-/** Coleccion de Firebasse para los usuarios ciclistas */
-export declare const bikerColection = "bikers";
+export { AdminRole, AdminUser } from './src/admin/admin';
+export { Biker, BikerStatus, BikerUserStatus } from './src/biker/biker';
+export { Business, BusinessContact, BusinessContactType, BusinessUserStatus } from './src/business/business';
+export { Customer } from './src/customer/customer';
+export { Order, OrderItem, OrderStatus, PaymentMethod } from './src/order/order';
+export { Rating, AverageRating } from './src/order/rating';
+export { DeliveryAvailable } from './src/other/deliveryAvailable';
+export { Product } from './src/product/product';
+export { Tag } from './src/product/tag';
+/**
+ * Colecciones de Firestore
+ */
+export declare enum FirestoreCollections {
+    /** Coleccion de {@link AdminUser} */
+    adminUsers = "adminUsers",
+    /** Coleccion de {@link Biker} */
+    bikers = "bikers",
+    /** Coleccion de {@link Business} */
+    businesses = "businesses",
+    /** Coleccion de {@link Customer} */
+    customers = "customers",
+    /** Coleccion de {@link Order} */
+    orders = "orders",
+    /** Coleccion de {@link Rating} */
+    ratings = "ratings",
+    /** Coleccion de {@link AverageRating} */
+    averageRating = "averageRating",
+    /** Coleccion de {@link DeliveryAvailable} */
+    deliveriesAvailable = "deliveriesAvailable",
+    /** Coleccion de {@link Product} */
+    products = "products",
+    /** Coleccion de {@link Tag} */
+    tags = "tags"
+}
