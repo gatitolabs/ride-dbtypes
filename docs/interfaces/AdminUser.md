@@ -28,7 +28,7 @@ rol del admin - ver [AdminRole](../modules.md#adminrole)
 
 #### Defined in
 
-src/admin/admin.ts:29
+[src/admin/admin.ts:29](https://github.com/gatitolabs/ride-dbtypes/blob/b537781/src/admin/admin.ts#L29)
 
 ___
 
@@ -40,7 +40,7 @@ estado de la cuenta de usario administrado (si fue o no aprobado por un usuario 
 
 #### Defined in
 
-src/admin/admin.ts:38
+[src/admin/admin.ts:38](https://github.com/gatitolabs/ride-dbtypes/blob/b537781/src/admin/admin.ts#L38)
 
 ___
 
@@ -52,7 +52,7 @@ fecha y hora de creacion
 
 #### Defined in
 
-src/admin/admin.ts:32
+[src/admin/admin.ts:32](https://github.com/gatitolabs/ride-dbtypes/blob/b537781/src/admin/admin.ts#L32)
 
 ___
 
@@ -64,7 +64,7 @@ correo electronico
 
 #### Defined in
 
-src/admin/admin.ts:23
+[src/admin/admin.ts:23](https://github.com/gatitolabs/ride-dbtypes/blob/b537781/src/admin/admin.ts#L23)
 
 ___
 
@@ -76,7 +76,7 @@ id de firebase auth
 
 #### Defined in
 
-src/admin/admin.ts:14
+[src/admin/admin.ts:14](https://github.com/gatitolabs/ride-dbtypes/blob/b537781/src/admin/admin.ts#L14)
 
 ___
 
@@ -88,7 +88,7 @@ nombre
 
 #### Defined in
 
-src/admin/admin.ts:17
+[src/admin/admin.ts:17](https://github.com/gatitolabs/ride-dbtypes/blob/b537781/src/admin/admin.ts#L17)
 
 ___
 
@@ -100,7 +100,7 @@ apellidos
 
 #### Defined in
 
-src/admin/admin.ts:20
+[src/admin/admin.ts:20](https://github.com/gatitolabs/ride-dbtypes/blob/b537781/src/admin/admin.ts#L20)
 
 ___
 
@@ -112,7 +112,7 @@ fecha y hora de ultima actualizacion
 
 #### Defined in
 
-src/admin/admin.ts:35
+[src/admin/admin.ts:35](https://github.com/gatitolabs/ride-dbtypes/blob/b537781/src/admin/admin.ts#L35)
 
 ___
 
@@ -124,4 +124,4 @@ URL de la foto de perfil (almacenada en Firebase Storage)
 
 #### Defined in
 
-src/admin/admin.ts:26
+[src/admin/admin.ts:26](https://github.com/gatitolabs/ride-dbtypes/blob/b537781/src/admin/admin.ts#L26)
