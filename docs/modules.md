@@ -43,7 +43,7 @@ Tipo de usuario adminsitrador
 
 #### Defined in
 
-src/admin/admin.ts:4
+src/admin/admin.ts:7
 
 ___
 

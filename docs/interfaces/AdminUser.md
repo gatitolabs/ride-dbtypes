@@ -9,6 +9,7 @@ Representa un usuario administrador del sistema
 ### Properties
 
 - [adminRole](AdminUser.md#adminrole)
+- [adminUserStatus](AdminUser.md#adminuserstatus)
 - [created](AdminUser.md#created)
 - [email](AdminUser.md#email)
 - [firebaseUserId](AdminUser.md#firebaseuserid)
@@ -27,7 +28,19 @@ rol del admin - ver [AdminRole](../modules.md#adminrole)
 
 #### Defined in
 
-src/admin/admin.ts:26
+src/admin/admin.ts:29
+
+___
+
+### adminUserStatus
+
+• **adminUserStatus**: `AdminUserStatus`
+
+estado de la cuenta de usario administrado (si fue o no aprobado por un usuario admin ya registrado) - ver {@link AdminUserStatus}
+
+#### Defined in
+
+src/admin/admin.ts:38
 
 ___
 
@@ -39,7 +52,7 @@ fecha y hora de creacion
 
 #### Defined in
 
-src/admin/admin.ts:29
+src/admin/admin.ts:32
 
 ___
 
@@ -51,7 +64,7 @@ correo electronico
 
 #### Defined in
 
-src/admin/admin.ts:20
+src/admin/admin.ts:23
 
 ___
 
@@ -63,7 +76,7 @@ id de firebase auth
 
 #### Defined in
 
-src/admin/admin.ts:11
+src/admin/admin.ts:14
 
 ___
 
@@ -75,7 +88,7 @@ nombre
 
 #### Defined in
 
-src/admin/admin.ts:14
+src/admin/admin.ts:17
 
 ___
 
@@ -87,7 +100,7 @@ apellidos
 
 #### Defined in
 
-src/admin/admin.ts:17
+src/admin/admin.ts:20
 
 ___
 
@@ -99,7 +112,7 @@ fecha y hora de ultima actualizacion
 
 #### Defined in
 
-src/admin/admin.ts:32
+src/admin/admin.ts:35
 
 ___
 
@@ -111,4 +124,4 @@ URL de la foto de perfil (almacenada en Firebase Storage)
 
 #### Defined in
 
-src/admin/admin.ts:23
+src/admin/admin.ts:26
