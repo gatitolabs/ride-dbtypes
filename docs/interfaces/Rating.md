@@ -28,7 +28,7 @@ Id del documento con la informacion del ciclista (no de firebase auth)
 
 #### Defined in
 
-src/order/rating.ts:12
+[src/order/rating.ts:12](https://github.com/gatitolabs/ride-dbtypes/blob/0b20e32/src/order/rating.ts#L12)
 
 ___
 
@@ -40,7 +40,7 @@ Id del documento con la informacion del negocio (no de firebase auth)
 
 #### Defined in
 
-src/order/rating.ts:9
+[src/order/rating.ts:9](https://github.com/gatitolabs/ride-dbtypes/blob/0b20e32/src/order/rating.ts#L9)
 
 ___
 
@@ -52,7 +52,7 @@ Comentario del usuario asociado a este puntaje
 
 #### Defined in
 
-src/order/rating.ts:24
+[src/order/rating.ts:24](https://github.com/gatitolabs/ride-dbtypes/blob/0b20e32/src/order/rating.ts#L24)
 
 ___
 
@@ -64,7 +64,7 @@ fecha y hora de creacion
 
 #### Defined in
 
-src/order/rating.ts:27
+[src/order/rating.ts:27](https://github.com/gatitolabs/ride-dbtypes/blob/0b20e32/src/order/rating.ts#L27)
 
 ___
 
@@ -76,7 +76,7 @@ Id del documento con la informacion del usuario (no de firebase auth)
 
 #### Defined in
 
-src/order/rating.ts:6
+[src/order/rating.ts:6](https://github.com/gatitolabs/ride-dbtypes/blob/0b20e32/src/order/rating.ts#L6)
 
 ___
 
@@ -88,7 +88,7 @@ fecha y hora de ultima actualizacion
 
 #### Defined in
 
-src/order/rating.ts:30
+[src/order/rating.ts:30](https://github.com/gatitolabs/ride-dbtypes/blob/0b20e32/src/order/rating.ts#L30)
 
 ___
 
@@ -100,7 +100,7 @@ Puntaje
 
 #### Defined in
 
-src/order/rating.ts:21
+[src/order/rating.ts:21](https://github.com/gatitolabs/ride-dbtypes/blob/0b20e32/src/order/rating.ts#L21)
 
 ___
 
@@ -112,7 +112,7 @@ Fecha de la orden
 
 #### Defined in
 
-src/order/rating.ts:15
+[src/order/rating.ts:15](https://github.com/gatitolabs/ride-dbtypes/blob/0b20e32/src/order/rating.ts#L15)
 
 ___
 
@@ -124,4 +124,4 @@ Nombre completo del usuario que asigno este puntaje
 
 #### Defined in
 
-src/order/rating.ts:18
+[src/order/rating.ts:18](https://github.com/gatitolabs/ride-dbtypes/blob/0b20e32/src/order/rating.ts#L18)

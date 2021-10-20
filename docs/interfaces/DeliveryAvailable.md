@@ -25,7 +25,7 @@ Direccion de entrega (copiada de la coleccion de ordenes)
 
 #### Defined in
 
-src/other/deliveryAvailable.ts:17
+[src/other/deliveryAvailable.ts:17](https://github.com/gatitolabs/ride-dbtypes/blob/0b20e32/src/other/deliveryAvailable.ts#L17)
 
 ___
 
@@ -37,7 +37,7 @@ Descripcion de la orden (copiado de la coleccion de ordenes)
 
 #### Defined in
 
-src/other/deliveryAvailable.ts:11
+[src/other/deliveryAvailable.ts:11](https://github.com/gatitolabs/ride-dbtypes/blob/0b20e32/src/other/deliveryAvailable.ts#L11)
 
 ___
 
@@ -49,7 +49,7 @@ Id de la orden
 
 #### Defined in
 
-src/other/deliveryAvailable.ts:8
+[src/other/deliveryAvailable.ts:8](https://github.com/gatitolabs/ride-dbtypes/blob/0b20e32/src/other/deliveryAvailable.ts#L8)
 
 ___
 
@@ -61,4 +61,4 @@ Direccion de origen (copiada de la coleccion de ordenes)
 
 #### Defined in
 
-src/other/deliveryAvailable.ts:14
+[src/other/deliveryAvailable.ts:14](https://github.com/gatitolabs/ride-dbtypes/blob/0b20e32/src/other/deliveryAvailable.ts#L14)

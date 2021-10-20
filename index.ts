@@ -16,7 +16,7 @@ export {Rating, AverageRating} from './src/order/rating';
 export {DeliveryAvailable} from './src/other/deliveryAvailable';
 export {Product} from './src/product/product';
 export {Tag} from './src/product/tag';
-
+export {ConfigItem} from './src/admin/configItem';
 /**
  * Colecciones de Firestore
  */
@@ -49,5 +49,8 @@ export enum FirestoreCollections {
   products = 'products',
 
   /** Coleccion de {@link Tag} */
-  tags = 'tags'
+  tags = 'tags',
+
+  /** Coleccion de {@link ConfigItem} */
+  configItems = 'configItems'
 }
