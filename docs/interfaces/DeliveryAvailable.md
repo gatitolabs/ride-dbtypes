@@ -10,34 +10,20 @@ que se dispara cuando se crean ordenes
 
 ### Properties
 
-- [deliveryAddress](DeliveryAvailable.md#deliveryaddress)
-- [description](DeliveryAvailable.md#description)
+- [bikersId](DeliveryAvailable.md#bikersid)
 - [orderId](DeliveryAvailable.md#orderid)
-- [originAddress](DeliveryAvailable.md#originaddress)
 
 ## Properties
 
-### deliveryAddress
+### bikersId
 
-• **deliveryAddress**: `string`
+• **bikersId**: `string`[]
 
-Direccion de entrega (copiada de la coleccion de ordenes)
-
-#### Defined in
-
-[src/other/deliveryAvailable.ts:17](https://github.com/gatitolabs/ride-dbtypes/blob/0b20e32/src/other/deliveryAvailable.ts#L17)
-
-___
-
-### description
-
-• **description**: `string`
-
-Descripcion de la orden (copiado de la coleccion de ordenes)
+Lista de IDs de los ciclistas a los que se les asigna la entrega como disponible
 
 #### Defined in
 
-[src/other/deliveryAvailable.ts:11](https://github.com/gatitolabs/ride-dbtypes/blob/0b20e32/src/other/deliveryAvailable.ts#L11)
+[src/other/deliveryAvailable.ts:11](https://github.com/gatitolabs/ride-dbtypes/blob/b7596ca/src/other/deliveryAvailable.ts#L11)
 
 ___
 
@@ -49,16 +35,4 @@ Id de la orden
 
 #### Defined in
 
-[src/other/deliveryAvailable.ts:8](https://github.com/gatitolabs/ride-dbtypes/blob/0b20e32/src/other/deliveryAvailable.ts#L8)
-
-___
-
-### originAddress
-
-• **originAddress**: `string`
-
-Direccion de origen (copiada de la coleccion de ordenes)
-
-#### Defined in
-
-[src/other/deliveryAvailable.ts:14](https://github.com/gatitolabs/ride-dbtypes/blob/0b20e32/src/other/deliveryAvailable.ts#L14)
+[src/other/deliveryAvailable.ts:8](https://github.com/gatitolabs/ride-dbtypes/blob/b7596ca/src/other/deliveryAvailable.ts#L8)

@@ -7,12 +7,6 @@ export interface DeliveryAvailable {
   /** Id de la orden */
   orderId: string;
 
-  /** Descripcion de la orden (copiado de la coleccion de ordenes) */
-  description: string;
-
-  /** Direccion de origen (copiada de la coleccion de ordenes) */
-  originAddress: string;
-
-  /** Direccion de entrega (copiada de la coleccion de ordenes) */
-  deliveryAddress: string;
+  /**Lista de IDs de los ciclistas a los que se les asigna la entrega como disponible */
+  bikersId: string[];
 }
