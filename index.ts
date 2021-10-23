@@ -3,13 +3,8 @@
 // ! por las aplicaciones de Ionic y Angular
 
 export {AdminRole, AdminUser} from './src/admin/admin';
-export {Biker, BikerStatus, BikerUserStatus} from './src/biker/biker';
-export {
-  Business,
-  BusinessContact,
-  BusinessContactType,
-  BusinessUserStatus
-} from './src/business/business';
+export {Biker, BikerStatus} from './src/biker/biker';
+export {Business, BusinessContact, BusinessContactType} from './src/business/business';
 export {Customer} from './src/customer/customer';
 export {Order, OrderItem, OrderStatus, PaymentMethod} from './src/order/order';
 export {Rating, AverageRating} from './src/order/rating';
@@ -17,6 +12,7 @@ export {DeliveryAvailable} from './src/other/deliveryAvailable';
 export {Product} from './src/product/product';
 export {Tag} from './src/product/tag';
 export {ConfigItem} from './src/admin/configItem';
+export {UserStatus} from './src/other/shared';
 /**
  * Colecciones de Firestore
  */
