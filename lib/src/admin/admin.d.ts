@@ -1,5 +1,4 @@
-/** Status de la cuenta de usuario ciclista */
-export declare type AdminUserStatus = 'Pending' | 'Accepted' | 'Rejected';
+import { UserStatus } from '../other/shared';
 /**
  * Tipo de usuario adminsitrador
  */
@@ -24,6 +23,6 @@ export interface AdminUser {
     created: number;
     /** fecha y hora de ultima actualizacion */
     lastUpdate: number;
-    /** estado de la cuenta de usario administrado (si fue o no aprobado por un usuario admin ya registrado) - ver {@link AdminUserStatus} */
-    adminUserStatus: AdminUserStatus;
+    /** estado de la cuenta de usario administrado (si fue o no aprobado por un usuario admin ya registrado) - ver {@link UserStatus} */
+    userStatus: UserStatus;
 }

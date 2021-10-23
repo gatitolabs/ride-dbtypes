@@ -26,7 +26,7 @@ Puntaje promedio =>  sumOfRatings / numberOfRatings
 
 #### Defined in
 
-[src/order/rating.ts:42](https://github.com/gatitolabs/ride-dbtypes/blob/b7596ca/src/order/rating.ts#L42)
+src/order/rating.ts:42
 
 ___
 
@@ -34,11 +34,11 @@ ___
 
 • **businessId**: `string`
 
-Id del documento con la informacion del negocio (no de firebase auth)
+Firebase User Id del negocio (de firebase auth)
 
 #### Defined in
 
-[src/order/rating.ts:39](https://github.com/gatitolabs/ride-dbtypes/blob/b7596ca/src/order/rating.ts#L39)
+src/order/rating.ts:39
 
 ___
 
@@ -50,7 +50,7 @@ fecha y hora de creacion
 
 #### Defined in
 
-[src/order/rating.ts:51](https://github.com/gatitolabs/ride-dbtypes/blob/b7596ca/src/order/rating.ts#L51)
+src/order/rating.ts:51
 
 ___
 
@@ -62,7 +62,7 @@ fecha y hora de ultima actualizacion
 
 #### Defined in
 
-[src/order/rating.ts:54](https://github.com/gatitolabs/ride-dbtypes/blob/b7596ca/src/order/rating.ts#L54)
+src/order/rating.ts:54
 
 ___
 
@@ -74,7 +74,7 @@ Cantidad de ratings asignados a este negocio
 
 #### Defined in
 
-[src/order/rating.ts:48](https://github.com/gatitolabs/ride-dbtypes/blob/b7596ca/src/order/rating.ts#L48)
+src/order/rating.ts:48
 
 ___
 
@@ -86,4 +86,4 @@ Suma total de todos los ratings asignados a este negocio
 
 #### Defined in
 
-[src/order/rating.ts:45](https://github.com/gatitolabs/ride-dbtypes/blob/b7596ca/src/order/rating.ts#L45)
+src/order/rating.ts:45

@@ -2,11 +2,11 @@
  * Puntaje (rating) de una orden especifica
  * */
 export interface Rating {
-    /** Id del documento con la informacion del usuario (no de firebase auth) */
+    /** Firebase User Id del usuario (de firebase auth) */
     customerId: string;
-    /** Id del documento con la informacion del negocio (no de firebase auth) */
+    /** Firebase User Id del negocio (de firebase auth) */
     businessId: string;
-    /** Id del documento con la informacion del ciclista (no de firebase auth) */
+    /** Firebase User Id del ciclista (de firebase auth) */
     bikerId: string;
     /** Fecha de la orden */
     orderDate: number;
@@ -26,7 +26,7 @@ export interface Rating {
  * Calculado automaticamente por un Cloud Function
  */
 export interface AverageRating {
-    /** Id del documento con la informacion del negocio (no de firebase auth) */
+    /** Firebase User Id del negocio (de firebase auth) */
     businessId: string;
     /** Puntaje promedio =>  sumOfRatings / numberOfRatings */
     average: number;

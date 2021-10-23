@@ -26,11 +26,11 @@ Por ejemplo: camiseta blanca, camiseta azul, camiseta verde, etc
 
 • **businessId**: `string`
 
-Id del documento con la informacion del negocio (no de firebase auth)
+Firebase User Id del negocio (de firebase auth)
 
 #### Defined in
 
-[src/product/product.ts:20](https://github.com/gatitolabs/ride-dbtypes/blob/b7596ca/src/product/product.ts#L20)
+src/product/product.ts:20
 
 ___
 
@@ -42,7 +42,7 @@ Costo unitario del producto
 
 #### Defined in
 
-[src/product/product.ts:17](https://github.com/gatitolabs/ride-dbtypes/blob/b7596ca/src/product/product.ts#L17)
+src/product/product.ts:17
 
 ___
 
@@ -54,7 +54,7 @@ fecha y hora de creacion
 
 #### Defined in
 
-[src/product/product.ts:29](https://github.com/gatitolabs/ride-dbtypes/blob/b7596ca/src/product/product.ts#L29)
+src/product/product.ts:29
 
 ___
 
@@ -66,7 +66,7 @@ Descripcion del producto
 
 #### Defined in
 
-[src/product/product.ts:14](https://github.com/gatitolabs/ride-dbtypes/blob/b7596ca/src/product/product.ts#L14)
+src/product/product.ts:14
 
 ___
 
@@ -78,7 +78,7 @@ fecha y hora de ultima actualizacion
 
 #### Defined in
 
-[src/product/product.ts:32](https://github.com/gatitolabs/ride-dbtypes/blob/b7596ca/src/product/product.ts#L32)
+src/product/product.ts:32
 
 ___
 
@@ -90,7 +90,7 @@ Nombre del producto
 
 #### Defined in
 
-[src/product/product.ts:11](https://github.com/gatitolabs/ride-dbtypes/blob/b7596ca/src/product/product.ts#L11)
+src/product/product.ts:11
 
 ___
 
@@ -102,7 +102,7 @@ URL de la foto de producto (almacenada en Firebase Storage)
 
 #### Defined in
 
-[src/product/product.ts:26](https://github.com/gatitolabs/ride-dbtypes/blob/b7596ca/src/product/product.ts#L26)
+src/product/product.ts:26
 
 ___
 
@@ -114,4 +114,4 @@ Lista de Etiquetas a las que pertenece el producto - ver [Tag](Tag.md)
 
 #### Defined in
 
-[src/product/product.ts:23](https://github.com/gatitolabs/ride-dbtypes/blob/b7596ca/src/product/product.ts#L23)
+src/product/product.ts:23

@@ -1,6 +1,5 @@
+import { UserStatus } from '../other/shared';
 import { Tag } from '../product/tag';
-/** Status de la cuenta de usuario de un negocio */
-export declare type BusinessUserStatus = 'Pending' | 'Accepted' | 'Rejected';
 /** tipo del contacto adicional, como redes sociales o sitio web */
 export declare type BusinessContactType = 'Facebook' | 'Instagram' | 'Website' | 'Other Phone' | 'Fax';
 /** Contacto de un negocio (e.g. Facebook, Instagram, etc) */
@@ -27,8 +26,8 @@ export interface Business {
     distrito: string;
     /** otras señas de la direccion del negocio */
     otherDirections: string;
-    /** estado de la cuenta de usario de un negocio (si fue o no aprobado por un usuario admin) - ver {@link BusinessUserStatus}*/
-    userStatus: BusinessUserStatus;
+    /** estado de la cuenta de usario de un negocio (si fue o no aprobado por un usuario admin) - ver {@link UserStatus}*/
+    userStatus: UserStatus;
     /** promedio de ratings del negocio */
     rating: number;
     /** contactos extra fuera del correo y telefono - ver {@link BusinessContact}*/

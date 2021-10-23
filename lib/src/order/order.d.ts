@@ -21,11 +21,11 @@ export interface OrderItem {
  * Representa una orden dentro del sistema
  */
 export interface Order {
-    /** Id del documento con la informacion del usuario (no de firebase auth) */
+    /** Firebase User Id del usuario (de firebase auth) */
     customerId: string;
-    /** Id del documento con la informacion del negocio (no de firebase auth) */
+    /** Firebase User Id del negocio (de firebase auth) */
     businessId: string;
-    /** Id del documento con la informacion del ciclista (no de firebase auth) */
+    /** Firebase User Id del biker (de firebase auth) */
     bikerId: string;
     /** Status de la orden - ver {@link OrderStatus} */
     status: OrderStatus;

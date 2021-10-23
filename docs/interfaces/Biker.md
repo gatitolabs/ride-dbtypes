@@ -8,7 +8,6 @@ Representa un usuario ciclista del sistema
 
 ### Properties
 
-- [bikerUserStatus](Biker.md#bikeruserstatus)
 - [canton](Biker.md#canton)
 - [cellPhone](Biker.md#cellphone)
 - [created](Biker.md#created)
@@ -21,20 +20,9 @@ Representa un usuario ciclista del sistema
 - [profilePhoto](Biker.md#profilephoto)
 - [provincia](Biker.md#provincia)
 - [status](Biker.md#status)
+- [userStatus](Biker.md#userstatus)
 
 ## Properties
-
-### bikerUserStatus
-
-• **bikerUserStatus**: [`BikerUserStatus`](../modules.md#bikeruserstatus)
-
-estado de la cuenta de usario ciclista (si fue o no aprobado por un usuario admin) - ver [BikerUserStatus](../modules.md#bikeruserstatus)
-
-#### Defined in
-
-[src/biker/biker.ts:45](https://github.com/gatitolabs/ride-dbtypes/blob/b7596ca/src/biker/biker.ts#L45)
-
-___
 
 ### canton
 
@@ -42,7 +30,7 @@ ___
 
 #### Defined in
 
-[src/biker/biker.ts:34](https://github.com/gatitolabs/ride-dbtypes/blob/b7596ca/src/biker/biker.ts#L34)
+src/biker/biker.ts:33
 
 ___
 
@@ -54,7 +42,7 @@ numero de celular
 
 #### Defined in
 
-[src/biker/biker.ts:24](https://github.com/gatitolabs/ride-dbtypes/blob/b7596ca/src/biker/biker.ts#L24)
+src/biker/biker.ts:23
 
 ___
 
@@ -66,7 +54,7 @@ fecha y hora de creacion
 
 #### Defined in
 
-[src/biker/biker.ts:39](https://github.com/gatitolabs/ride-dbtypes/blob/b7596ca/src/biker/biker.ts#L39)
+src/biker/biker.ts:38
 
 ___
 
@@ -76,7 +64,7 @@ ___
 
 #### Defined in
 
-[src/biker/biker.ts:36](https://github.com/gatitolabs/ride-dbtypes/blob/b7596ca/src/biker/biker.ts#L36)
+src/biker/biker.ts:35
 
 ___
 
@@ -88,7 +76,7 @@ correo electronico
 
 #### Defined in
 
-[src/biker/biker.ts:21](https://github.com/gatitolabs/ride-dbtypes/blob/b7596ca/src/biker/biker.ts#L21)
+src/biker/biker.ts:20
 
 ___
 
@@ -100,7 +88,7 @@ id de firebase auth
 
 #### Defined in
 
-[src/biker/biker.ts:12](https://github.com/gatitolabs/ride-dbtypes/blob/b7596ca/src/biker/biker.ts#L12)
+src/biker/biker.ts:11
 
 ___
 
@@ -112,7 +100,7 @@ nombre
 
 #### Defined in
 
-[src/biker/biker.ts:15](https://github.com/gatitolabs/ride-dbtypes/blob/b7596ca/src/biker/biker.ts#L15)
+src/biker/biker.ts:14
 
 ___
 
@@ -124,7 +112,7 @@ apellidos
 
 #### Defined in
 
-[src/biker/biker.ts:18](https://github.com/gatitolabs/ride-dbtypes/blob/b7596ca/src/biker/biker.ts#L18)
+src/biker/biker.ts:17
 
 ___
 
@@ -136,7 +124,7 @@ fecha y hora de ultima actualizacion
 
 #### Defined in
 
-[src/biker/biker.ts:42](https://github.com/gatitolabs/ride-dbtypes/blob/b7596ca/src/biker/biker.ts#L42)
+src/biker/biker.ts:41
 
 ___
 
@@ -148,7 +136,7 @@ URL de la foto de perfil (almacenada en Firebase Storage)
 
 #### Defined in
 
-[src/biker/biker.ts:27](https://github.com/gatitolabs/ride-dbtypes/blob/b7596ca/src/biker/biker.ts#L27)
+src/biker/biker.ts:26
 
 ___
 
@@ -158,7 +146,7 @@ ___
 
 #### Defined in
 
-[src/biker/biker.ts:32](https://github.com/gatitolabs/ride-dbtypes/blob/b7596ca/src/biker/biker.ts#L32)
+src/biker/biker.ts:31
 
 ___
 
@@ -170,4 +158,16 @@ status del ciclista, relacionado con la capacidad de recibir ordenes - ver [Bike
 
 #### Defined in
 
-[src/biker/biker.ts:30](https://github.com/gatitolabs/ride-dbtypes/blob/b7596ca/src/biker/biker.ts#L30)
+src/biker/biker.ts:29
+
+___
+
+### userStatus
+
+• **userStatus**: [`UserStatus`](../modules.md#userstatus)
+
+estado de la cuenta de usario ciclista (si fue o no aprobado por un usuario admin) - ver [UserStatus](../modules.md#userstatus)
+
+#### Defined in
+
+src/biker/biker.ts:44

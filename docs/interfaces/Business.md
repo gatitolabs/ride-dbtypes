@@ -36,7 +36,7 @@ tipo de negocio
 
 #### Defined in
 
-[src/business/business.ts:53](https://github.com/gatitolabs/ride-dbtypes/blob/b7596ca/src/business/business.ts#L53)
+src/business/business.ts:51
 
 ___
 
@@ -46,7 +46,7 @@ ___
 
 #### Defined in
 
-[src/business/business.ts:36](https://github.com/gatitolabs/ride-dbtypes/blob/b7596ca/src/business/business.ts#L36)
+src/business/business.ts:34
 
 ___
 
@@ -58,7 +58,7 @@ numero de celular del negocio
 
 #### Defined in
 
-[src/business/business.ts:32](https://github.com/gatitolabs/ride-dbtypes/blob/b7596ca/src/business/business.ts#L32)
+src/business/business.ts:30
 
 ___
 
@@ -70,7 +70,7 @@ contactos extra fuera del correo y telefono - ver [BusinessContact](BusinessCont
 
 #### Defined in
 
-[src/business/business.ts:50](https://github.com/gatitolabs/ride-dbtypes/blob/b7596ca/src/business/business.ts#L50)
+src/business/business.ts:48
 
 ___
 
@@ -82,7 +82,7 @@ fecha y hora de creacion
 
 #### Defined in
 
-[src/business/business.ts:65](https://github.com/gatitolabs/ride-dbtypes/blob/b7596ca/src/business/business.ts#L65)
+src/business/business.ts:63
 
 ___
 
@@ -94,7 +94,7 @@ descripcion del negocio
 
 #### Defined in
 
-[src/business/business.ts:59](https://github.com/gatitolabs/ride-dbtypes/blob/b7596ca/src/business/business.ts#L59)
+src/business/business.ts:57
 
 ___
 
@@ -104,7 +104,7 @@ ___
 
 #### Defined in
 
-[src/business/business.ts:38](https://github.com/gatitolabs/ride-dbtypes/blob/b7596ca/src/business/business.ts#L38)
+src/business/business.ts:36
 
 ___
 
@@ -116,7 +116,7 @@ correo electronico del negocio
 
 #### Defined in
 
-[src/business/business.ts:56](https://github.com/gatitolabs/ride-dbtypes/blob/b7596ca/src/business/business.ts#L56)
+src/business/business.ts:54
 
 ___
 
@@ -128,7 +128,7 @@ id de firebase auth
 
 #### Defined in
 
-[src/business/business.ts:23](https://github.com/gatitolabs/ride-dbtypes/blob/b7596ca/src/business/business.ts#L23)
+src/business/business.ts:21
 
 ___
 
@@ -140,7 +140,7 @@ fecha y hora de ultima actualizacion
 
 #### Defined in
 
-[src/business/business.ts:68](https://github.com/gatitolabs/ride-dbtypes/blob/b7596ca/src/business/business.ts#L68)
+src/business/business.ts:66
 
 ___
 
@@ -152,7 +152,7 @@ nombre del negocio
 
 #### Defined in
 
-[src/business/business.ts:29](https://github.com/gatitolabs/ride-dbtypes/blob/b7596ca/src/business/business.ts#L29)
+src/business/business.ts:27
 
 ___
 
@@ -164,7 +164,7 @@ otras señas de la direccion del negocio
 
 #### Defined in
 
-[src/business/business.ts:41](https://github.com/gatitolabs/ride-dbtypes/blob/b7596ca/src/business/business.ts#L41)
+src/business/business.ts:39
 
 ___
 
@@ -176,7 +176,7 @@ URL de la foto de perfil (almacenada en Firebase Storage)
 
 #### Defined in
 
-[src/business/business.ts:26](https://github.com/gatitolabs/ride-dbtypes/blob/b7596ca/src/business/business.ts#L26)
+src/business/business.ts:24
 
 ___
 
@@ -186,7 +186,7 @@ ___
 
 #### Defined in
 
-[src/business/business.ts:34](https://github.com/gatitolabs/ride-dbtypes/blob/b7596ca/src/business/business.ts#L34)
+src/business/business.ts:32
 
 ___
 
@@ -198,7 +198,7 @@ promedio de ratings del negocio
 
 #### Defined in
 
-[src/business/business.ts:47](https://github.com/gatitolabs/ride-dbtypes/blob/b7596ca/src/business/business.ts#L47)
+src/business/business.ts:45
 
 ___
 
@@ -210,16 +210,16 @@ Lista de tags a las que pertenece este negocio - ver [Tag](Tag.md)
 
 #### Defined in
 
-[src/business/business.ts:62](https://github.com/gatitolabs/ride-dbtypes/blob/b7596ca/src/business/business.ts#L62)
+src/business/business.ts:60
 
 ___
 
 ### userStatus
 
-• **userStatus**: [`BusinessUserStatus`](../modules.md#businessuserstatus)
+• **userStatus**: [`UserStatus`](../modules.md#userstatus)
 
-estado de la cuenta de usario de un negocio (si fue o no aprobado por un usuario admin) - ver [BusinessUserStatus](../modules.md#businessuserstatus)
+estado de la cuenta de usario de un negocio (si fue o no aprobado por un usuario admin) - ver [UserStatus](../modules.md#userstatus)
 
 #### Defined in
 
-[src/business/business.ts:44](https://github.com/gatitolabs/ride-dbtypes/blob/b7596ca/src/business/business.ts#L44)
+src/business/business.ts:42
