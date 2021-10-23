@@ -16,7 +16,7 @@ export interface Product {
   /** Costo unitario del producto */
   cost: number;
 
-  /** Id del documento con la informacion del negocio (no de firebase auth) */
+  /** Firebase User Id del negocio (de firebase auth) */
   businessId: string;
 
   /** Lista de Etiquetas a las que pertenece el producto - ver {@link Tag} */
