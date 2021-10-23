@@ -41,5 +41,5 @@ export interface Biker {
   lastUpdate: number;
 
   /** estado de la cuenta de usario ciclista (si fue o no aprobado por un usuario admin) - ver {@link UserStatus} */
-  bikerUserStatus: UserStatus;
+  userStatus: UserStatus;
 }

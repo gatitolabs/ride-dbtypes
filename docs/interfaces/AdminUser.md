@@ -9,7 +9,6 @@ Representa un usuario administrador del sistema
 ### Properties
 
 - [adminRole](AdminUser.md#adminrole)
-- [adminUserStatus](AdminUser.md#adminuserstatus)
 - [created](AdminUser.md#created)
 - [email](AdminUser.md#email)
 - [firebaseUserId](AdminUser.md#firebaseuserid)
@@ -17,6 +16,7 @@ Representa un usuario administrador del sistema
 - [lastName](AdminUser.md#lastname)
 - [lastUpdate](AdminUser.md#lastupdate)
 - [profilePhoto](AdminUser.md#profilephoto)
+- [userStatus](AdminUser.md#userstatus)
 
 ## Properties
 
@@ -29,18 +29,6 @@ rol del admin - ver [AdminRole](../modules.md#adminrole)
 #### Defined in
 
 src/admin/admin.ts:28
-
-___
-
-### adminUserStatus
-
-• **adminUserStatus**: [`UserStatus`](../modules.md#userstatus)
-
-estado de la cuenta de usario administrado (si fue o no aprobado por un usuario admin ya registrado) - ver [UserStatus](../modules.md#userstatus)
-
-#### Defined in
-
-src/admin/admin.ts:37
 
 ___
 
@@ -125,3 +113,15 @@ URL de la foto de perfil (almacenada en Firebase Storage)
 #### Defined in
 
 src/admin/admin.ts:25
+
+___
+
+### userStatus
+
+• **userStatus**: [`UserStatus`](../modules.md#userstatus)
+
+estado de la cuenta de usario administrado (si fue o no aprobado por un usuario admin ya registrado) - ver [UserStatus](../modules.md#userstatus)
+
+#### Defined in
+
+src/admin/admin.ts:37

@@ -8,7 +8,6 @@ Representa un usuario ciclista del sistema
 
 ### Properties
 
-- [bikerUserStatus](Biker.md#bikeruserstatus)
 - [canton](Biker.md#canton)
 - [cellPhone](Biker.md#cellphone)
 - [created](Biker.md#created)
@@ -21,20 +20,9 @@ Representa un usuario ciclista del sistema
 - [profilePhoto](Biker.md#profilephoto)
 - [provincia](Biker.md#provincia)
 - [status](Biker.md#status)
+- [userStatus](Biker.md#userstatus)
 
 ## Properties
-
-### bikerUserStatus
-
-• **bikerUserStatus**: [`UserStatus`](../modules.md#userstatus)
-
-estado de la cuenta de usario ciclista (si fue o no aprobado por un usuario admin) - ver [UserStatus](../modules.md#userstatus)
-
-#### Defined in
-
-src/biker/biker.ts:44
-
-___
 
 ### canton
 
@@ -171,3 +159,15 @@ status del ciclista, relacionado con la capacidad de recibir ordenes - ver [Bike
 #### Defined in
 
 src/biker/biker.ts:29
+
+___
+
+### userStatus
+
+• **userStatus**: [`UserStatus`](../modules.md#userstatus)
+
+estado de la cuenta de usario ciclista (si fue o no aprobado por un usuario admin) - ver [UserStatus](../modules.md#userstatus)
+
+#### Defined in
+
+src/biker/biker.ts:44

@@ -24,5 +24,5 @@ export interface AdminUser {
     /** fecha y hora de ultima actualizacion */
     lastUpdate: number;
     /** estado de la cuenta de usario administrado (si fue o no aprobado por un usuario admin ya registrado) - ver {@link UserStatus} */
-    adminUserStatus: UserStatus;
+    userStatus: UserStatus;
 }
