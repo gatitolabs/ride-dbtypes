@@ -1,5 +1,4 @@
-/** Status de la cuenta de usuario ciclista */
-export declare type BikerUserStatus = 'Pending' | 'Accepted' | 'Rejected';
+import { UserStatus } from '../other/shared';
 /** Si el usuario ciclista esta disponible o no para hacer entregas */
 export declare type BikerStatus = 'Disconnected' | 'Available' | 'Delivering';
 /**
@@ -27,6 +26,6 @@ export interface Biker {
     created: number;
     /** fecha y hora de ultima actualizacion */
     lastUpdate: number;
-    /** estado de la cuenta de usario ciclista (si fue o no aprobado por un usuario admin) - ver {@link BikerUserStatus} */
-    bikerUserStatus: BikerUserStatus;
+    /** estado de la cuenta de usario ciclista (si fue o no aprobado por un usuario admin) - ver {@link UserStatus} */
+    bikerUserStatus: UserStatus;
 }
