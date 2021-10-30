@@ -14,3 +14,7 @@ Proyecto RIDE: Documentos NoSQL para Firestore
    1. por ejemplo `git add .`
 1. Crear un _pull request_ en github. Agregar al menos a 1 persona por equipo. Si lo desean, también pueden agregar al profesor.
 1. Luego de que el _pull request_ haya sido fusionado y el _tag_ nuevo haya sido creado, actualizar las dependencias en los proyectos afectados.
+
+## Estados Orden (definidos el 29 de Octubre de 2021)
+
+![Estados Orden](RIDE-EstadosOrden.jpg)

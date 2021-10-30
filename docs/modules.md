@@ -73,13 +73,22 @@ ___
 
 ### OrderStatus
 
-Ƭ **OrderStatus**: ``"Processing"`` \| ``"Sent"`` \| ``"InTransit"`` \| ``"Arriving"`` \| ``"Finished"`` \| ``"Rejected"``
+Ƭ **OrderStatus**: ``"Pending"`` \| ``"AcceptedByClient"`` \| ``"Processing"`` \| ``"AssignedToBiker"`` \| ``"InTransit"`` \| ``"Arriving"`` \| ``"Finished"`` \| ``"RatedByClient"`` \| ``"Rejected"``
 
 Status de la Orden
+Pending: orden creada por el usuario final, a la espera de que RIDE asigne un costo de envío Y confirmar que el negocio puede hacerse cargo del pedido
+AcceptedByClient: cliente acepta las condiciones y costo del envío, el negocio todavía necesita aprobar que puede encargarse de la orden.
+Processing: el usuario final aceptó el precio de envío Y el negocio se encuentra preparando el pedido.  Todavía no se le ha entregado el pedido al ciclista.
+AssignedToBiker: orden asignada a ciclista, pero todavía no la ha retirado del negocio
+InTransit: el ciclista retiró el pedido y se dispone a ir a dejarlo
+Arriving: el ciclista está a menos de 500mts del destino (opcional, nice to have)
+Finished: pedido entregado satisfactoriamente al cliente (este evento lo dispara el ciclista)
+RatedByClient: pedido tiene un review del usuario (este evento lo dispara el cliente)
+Rejected: Pedido rechazado
 
 #### Defined in
 
-src/order/order.ts:2
+src/order/order.ts:13
 
 ___
 
@@ -91,7 +100,7 @@ Metodos de pago
 
 #### Defined in
 
-src/order/order.ts:11
+src/order/order.ts:25
 
 ___
 
