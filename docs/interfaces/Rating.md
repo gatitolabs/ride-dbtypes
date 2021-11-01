@@ -16,6 +16,7 @@ Puntaje (rating) de una orden especifica
 - [lastUpdate](Rating.md#lastupdate)
 - [numericRating](Rating.md#numericrating)
 - [orderDate](Rating.md#orderdate)
+- [sentimentScore](Rating.md#sentimentscore)
 - [userName](Rating.md#username)
 
 ## Properties
@@ -64,7 +65,7 @@ fecha y hora de creacion
 
 #### Defined in
 
-src/order/rating.ts:27
+src/order/rating.ts:30
 
 ___
 
@@ -88,7 +89,7 @@ fecha y hora de ultima actualizacion
 
 #### Defined in
 
-src/order/rating.ts:30
+src/order/rating.ts:33
 
 ___
 
@@ -113,6 +114,18 @@ Fecha de la orden
 #### Defined in
 
 src/order/rating.ts:15
+
+___
+
+### sentimentScore
+
+• **sentimentScore**: `number`
+
+Puntaje del API de Analisis de Sentimiento de Google
+
+#### Defined in
+
+src/order/rating.ts:27
 
 ___
 

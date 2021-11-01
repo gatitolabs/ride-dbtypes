@@ -10,11 +10,13 @@ Calculado automaticamente por un Cloud Function
 ### Properties
 
 - [average](AverageRating.md#average)
+- [averageSentimentScore](AverageRating.md#averagesentimentscore)
 - [businessId](AverageRating.md#businessid)
 - [created](AverageRating.md#created)
 - [lastUpdate](AverageRating.md#lastupdate)
 - [numberOfRatings](AverageRating.md#numberofratings)
 - [sumOfRatings](AverageRating.md#sumofratings)
+- [sumOfSentimentScore](AverageRating.md#sumofsentimentscore)
 
 ## Properties
 
@@ -26,7 +28,19 @@ Puntaje promedio =>  sumOfRatings / numberOfRatings
 
 #### Defined in
 
-src/order/rating.ts:42
+src/order/rating.ts:45
+
+___
+
+### averageSentimentScore
+
+• **averageSentimentScore**: `number`
+
+Puntaje promedio de sentimiento => sumOfSentimentScore / numberOfRatings
+
+#### Defined in
+
+src/order/rating.ts:57
 
 ___
 
@@ -38,7 +52,7 @@ Firebase User Id del negocio (de firebase auth)
 
 #### Defined in
 
-src/order/rating.ts:39
+src/order/rating.ts:42
 
 ___
 
@@ -50,7 +64,7 @@ fecha y hora de creacion
 
 #### Defined in
 
-src/order/rating.ts:51
+src/order/rating.ts:60
 
 ___
 
@@ -62,7 +76,7 @@ fecha y hora de ultima actualizacion
 
 #### Defined in
 
-src/order/rating.ts:54
+src/order/rating.ts:63
 
 ___
 
@@ -74,7 +88,7 @@ Cantidad de ratings asignados a este negocio
 
 #### Defined in
 
-src/order/rating.ts:48
+src/order/rating.ts:51
 
 ___
 
@@ -86,4 +100,16 @@ Suma total de todos los ratings asignados a este negocio
 
 #### Defined in
 
-src/order/rating.ts:45
+src/order/rating.ts:48
+
+___
+
+### sumOfSentimentScore
+
+• **sumOfSentimentScore**: `number`
+
+Suma total de todos los puntajes de sentimiento asignados reviews de este negocio
+
+#### Defined in
+
+src/order/rating.ts:54
