@@ -23,6 +23,9 @@ export interface Rating {
   /** Comentario del usuario asociado a este puntaje */
   comment: string;
 
+  /** Puntaje del API de Analisis de Sentimiento de Google */
+  sentimentScore: number;
+
   /** fecha y hora de creacion */
   created: number;
 
@@ -46,6 +49,12 @@ export interface AverageRating {
 
   /** Cantidad de ratings asignados a este negocio */
   numberOfRatings: number;
+
+  /** Suma total de todos los puntajes de sentimiento asignados reviews de este negocio */
+  sumOfSentimentScore: number;
+
+  /** Puntaje promedio de sentimiento => sumOfSentimentScore / numberOfRatings */
+  averageSentimentScore: number;
 
   /** fecha y hora de creacion */
   created: number;
