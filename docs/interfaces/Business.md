@@ -76,7 +76,7 @@ ___
 
 ### currentLocation
 
-• **currentLocation**: `Coords`
+• **currentLocation**: [`Coords`](Coords.md)
 
 ubicacion actual del negocio, utilizado para calcular rutas de los envios
 

@@ -12,7 +12,7 @@ export {DeliveryAvailable} from './src/other/deliveryAvailable';
 export {Product} from './src/product/product';
 export {Tag} from './src/product/tag';
 export {ConfigItem} from './src/admin/configItem';
-export {UserStatus} from './src/other/shared';
+export {UserStatus, Coords} from './src/other/shared';
 /**
  * Colecciones de Firestore
  */
