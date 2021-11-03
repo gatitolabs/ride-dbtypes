@@ -1,4 +1,4 @@
-import { UserStatus } from '../other/shared';
+import { Coords, UserStatus } from '../other/shared';
 import { Tag } from '../product/tag';
 /** tipo del contacto adicional, como redes sociales o sitio web */
 export declare type BusinessContactType = 'Facebook' | 'Instagram' | 'Website' | 'Other Phone' | 'Fax';
@@ -26,6 +26,8 @@ export interface Business {
     distrito: string;
     /** otras señas de la direccion del negocio */
     otherDirections: string;
+    /** ubicacion actual del negocio, utilizado para calcular rutas de los envios */
+    currentLocation: Coords;
     /** estado de la cuenta de usario de un negocio (si fue o no aprobado por un usuario admin) - ver {@link UserStatus}*/
     userStatus: UserStatus;
     /** promedio de ratings del negocio */

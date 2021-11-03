@@ -10,6 +10,7 @@ Representa un usuario cliente de RIDE
 
 - [cellPhone](Customer.md#cellphone)
 - [created](Customer.md#created)
+- [currentLocation](Customer.md#currentlocation)
 - [email](Customer.md#email)
 - [firebaseUserId](Customer.md#firebaseuserid)
 - [firstName](Customer.md#firstname)
@@ -27,7 +28,7 @@ numero de celular del usuario
 
 #### Defined in
 
-[src/customer/customer.ts:18](https://github.com/gatitolabs/ride-dbtypes/blob/ae9cef7/src/customer/customer.ts#L18)
+src/customer/customer.ts:20
 
 ___
 
@@ -39,7 +40,19 @@ fecha y hora de creacion
 
 #### Defined in
 
-[src/customer/customer.ts:24](https://github.com/gatitolabs/ride-dbtypes/blob/ae9cef7/src/customer/customer.ts#L24)
+src/customer/customer.ts:29
+
+___
+
+### currentLocation
+
+• **currentLocation**: `Coords`
+
+ubicacion actual del negocio, utilizado para calcular rutas de los envios
+
+#### Defined in
+
+src/customer/customer.ts:26
 
 ___
 
@@ -51,7 +64,7 @@ correo electronico del usuario
 
 #### Defined in
 
-[src/customer/customer.ts:12](https://github.com/gatitolabs/ride-dbtypes/blob/ae9cef7/src/customer/customer.ts#L12)
+src/customer/customer.ts:14
 
 ___
 
@@ -63,7 +76,7 @@ id de firebase auth
 
 #### Defined in
 
-[src/customer/customer.ts:15](https://github.com/gatitolabs/ride-dbtypes/blob/ae9cef7/src/customer/customer.ts#L15)
+src/customer/customer.ts:17
 
 ___
 
@@ -75,7 +88,7 @@ nombre completo del usuario
 
 #### Defined in
 
-[src/customer/customer.ts:6](https://github.com/gatitolabs/ride-dbtypes/blob/ae9cef7/src/customer/customer.ts#L6)
+src/customer/customer.ts:8
 
 ___
 
@@ -87,7 +100,7 @@ apellidos del usuario
 
 #### Defined in
 
-[src/customer/customer.ts:9](https://github.com/gatitolabs/ride-dbtypes/blob/ae9cef7/src/customer/customer.ts#L9)
+src/customer/customer.ts:11
 
 ___
 
@@ -99,7 +112,7 @@ fecha y hora de ultima actualizacion
 
 #### Defined in
 
-[src/customer/customer.ts:27](https://github.com/gatitolabs/ride-dbtypes/blob/ae9cef7/src/customer/customer.ts#L27)
+src/customer/customer.ts:32
 
 ___
 
@@ -111,4 +124,4 @@ URL de la foto de perfil (almacenada en Firebase Storage)
 
 #### Defined in
 
-[src/customer/customer.ts:21](https://github.com/gatitolabs/ride-dbtypes/blob/ae9cef7/src/customer/customer.ts#L21)
+src/customer/customer.ts:23

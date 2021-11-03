@@ -3,3 +3,10 @@
  * Bikers, Admin y Business
  */
 export declare type UserStatus = 'Pending' | 'Accepted' | 'Rejected';
+/**
+ * Coordenadas
+ */
+export interface Coords {
+    longitude: number;
+    latitude: number;
+}

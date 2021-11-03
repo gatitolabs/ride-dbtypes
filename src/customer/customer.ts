@@ -1,3 +1,5 @@
+import {Coords} from '../other/shared';
+
 /**
  * Representa un usuario cliente de RIDE
  */
@@ -19,6 +21,9 @@ export interface Customer {
 
   /** URL de la foto de perfil (almacenada en Firebase Storage) */
   profilePhoto: string;
+
+  /** ubicacion actual del negocio, utilizado para calcular rutas de los envios */
+  currentLocation: Coords;
 
   /** fecha y hora de creacion */
   created: number;

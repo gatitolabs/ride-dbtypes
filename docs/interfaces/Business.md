@@ -12,6 +12,7 @@ Representa un usuario de un negocio del sistema
 - [cellPhone](Business.md#cellphone)
 - [contacts](Business.md#contacts)
 - [created](Business.md#created)
+- [currentLocation](Business.md#currentlocation)
 - [description](Business.md#description)
 - [distrito](Business.md#distrito)
 - [email](Business.md#email)
@@ -33,7 +34,7 @@ Representa un usuario de un negocio del sistema
 
 #### Defined in
 
-[src/business/business.ts:34](https://github.com/gatitolabs/ride-dbtypes/blob/ae9cef7/src/business/business.ts#L34)
+src/business/business.ts:34
 
 ___
 
@@ -45,7 +46,7 @@ numero de celular del negocio
 
 #### Defined in
 
-[src/business/business.ts:30](https://github.com/gatitolabs/ride-dbtypes/blob/ae9cef7/src/business/business.ts#L30)
+src/business/business.ts:30
 
 ___
 
@@ -57,7 +58,7 @@ contactos extra fuera del correo y telefono - ver [BusinessContact](BusinessCont
 
 #### Defined in
 
-[src/business/business.ts:48](https://github.com/gatitolabs/ride-dbtypes/blob/ae9cef7/src/business/business.ts#L48)
+src/business/business.ts:51
 
 ___
 
@@ -69,7 +70,19 @@ fecha y hora de creacion
 
 #### Defined in
 
-[src/business/business.ts:60](https://github.com/gatitolabs/ride-dbtypes/blob/ae9cef7/src/business/business.ts#L60)
+src/business/business.ts:63
+
+___
+
+### currentLocation
+
+• **currentLocation**: `Coords`
+
+ubicacion actual del negocio, utilizado para calcular rutas de los envios
+
+#### Defined in
+
+src/business/business.ts:42
 
 ___
 
@@ -81,7 +94,7 @@ descripcion del negocio
 
 #### Defined in
 
-[src/business/business.ts:54](https://github.com/gatitolabs/ride-dbtypes/blob/ae9cef7/src/business/business.ts#L54)
+src/business/business.ts:57
 
 ___
 
@@ -91,7 +104,7 @@ ___
 
 #### Defined in
 
-[src/business/business.ts:36](https://github.com/gatitolabs/ride-dbtypes/blob/ae9cef7/src/business/business.ts#L36)
+src/business/business.ts:36
 
 ___
 
@@ -103,7 +116,7 @@ correo electronico del negocio
 
 #### Defined in
 
-[src/business/business.ts:51](https://github.com/gatitolabs/ride-dbtypes/blob/ae9cef7/src/business/business.ts#L51)
+src/business/business.ts:54
 
 ___
 
@@ -115,7 +128,7 @@ id de firebase auth
 
 #### Defined in
 
-[src/business/business.ts:21](https://github.com/gatitolabs/ride-dbtypes/blob/ae9cef7/src/business/business.ts#L21)
+src/business/business.ts:21
 
 ___
 
@@ -127,7 +140,7 @@ fecha y hora de ultima actualizacion
 
 #### Defined in
 
-[src/business/business.ts:63](https://github.com/gatitolabs/ride-dbtypes/blob/ae9cef7/src/business/business.ts#L63)
+src/business/business.ts:66
 
 ___
 
@@ -139,7 +152,7 @@ nombre del negocio
 
 #### Defined in
 
-[src/business/business.ts:27](https://github.com/gatitolabs/ride-dbtypes/blob/ae9cef7/src/business/business.ts#L27)
+src/business/business.ts:27
 
 ___
 
@@ -151,7 +164,7 @@ otras señas de la direccion del negocio
 
 #### Defined in
 
-[src/business/business.ts:39](https://github.com/gatitolabs/ride-dbtypes/blob/ae9cef7/src/business/business.ts#L39)
+src/business/business.ts:39
 
 ___
 
@@ -163,7 +176,7 @@ URL de la foto de perfil (almacenada en Firebase Storage)
 
 #### Defined in
 
-[src/business/business.ts:24](https://github.com/gatitolabs/ride-dbtypes/blob/ae9cef7/src/business/business.ts#L24)
+src/business/business.ts:24
 
 ___
 
@@ -173,7 +186,7 @@ ___
 
 #### Defined in
 
-[src/business/business.ts:32](https://github.com/gatitolabs/ride-dbtypes/blob/ae9cef7/src/business/business.ts#L32)
+src/business/business.ts:32
 
 ___
 
@@ -185,7 +198,7 @@ promedio de ratings del negocio
 
 #### Defined in
 
-[src/business/business.ts:45](https://github.com/gatitolabs/ride-dbtypes/blob/ae9cef7/src/business/business.ts#L45)
+src/business/business.ts:48
 
 ___
 
@@ -197,7 +210,7 @@ Lista de tags a las que pertenece este negocio - ver [Tag](Tag.md)
 
 #### Defined in
 
-[src/business/business.ts:57](https://github.com/gatitolabs/ride-dbtypes/blob/ae9cef7/src/business/business.ts#L57)
+src/business/business.ts:60
 
 ___
 
@@ -209,4 +222,4 @@ estado de la cuenta de usario de un negocio (si fue o no aprobado por un usuario
 
 #### Defined in
 
-[src/business/business.ts:42](https://github.com/gatitolabs/ride-dbtypes/blob/ae9cef7/src/business/business.ts#L42)
+src/business/business.ts:45
