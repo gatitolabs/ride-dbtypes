@@ -16,6 +16,7 @@
 - [Business](interfaces/Business.md)
 - [BusinessContact](interfaces/BusinessContact.md)
 - [ConfigItem](interfaces/ConfigItem.md)
+- [Coords](interfaces/Coords.md)
 - [Customer](interfaces/Customer.md)
 - [DeliveryAvailable](interfaces/DeliveryAvailable.md)
 - [Order](interfaces/Order.md)
