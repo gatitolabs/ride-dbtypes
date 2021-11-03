@@ -43,7 +43,7 @@ Tipo de usuario adminsitrador
 
 #### Defined in
 
-src/admin/admin.ts:6
+[src/admin/admin.ts:6](https://github.com/gatitolabs/ride-dbtypes/blob/ae9cef7/src/admin/admin.ts#L6)
 
 ___
 
@@ -55,7 +55,7 @@ Si el usuario ciclista esta disponible o no para hacer entregas
 
 #### Defined in
 
-src/biker/biker.ts:4
+[src/biker/biker.ts:4](https://github.com/gatitolabs/ride-dbtypes/blob/ae9cef7/src/biker/biker.ts#L4)
 
 ___
 
@@ -67,7 +67,7 @@ tipo del contacto adicional, como redes sociales o sitio web
 
 #### Defined in
 
-src/business/business.ts:5
+[src/business/business.ts:5](https://github.com/gatitolabs/ride-dbtypes/blob/ae9cef7/src/business/business.ts#L5)
 
 ___
 
@@ -88,7 +88,7 @@ Rejected: Pedido rechazado
 
 #### Defined in
 
-src/order/order.ts:13
+[src/order/order.ts:13](https://github.com/gatitolabs/ride-dbtypes/blob/ae9cef7/src/order/order.ts#L13)
 
 ___
 
@@ -100,7 +100,7 @@ Metodos de pago
 
 #### Defined in
 
-src/order/order.ts:25
+[src/order/order.ts:25](https://github.com/gatitolabs/ride-dbtypes/blob/ae9cef7/src/order/order.ts#L25)
 
 ___
 
@@ -113,4 +113,4 @@ Bikers, Admin y Business
 
 #### Defined in
 
-src/other/shared.ts:5
+[src/other/shared.ts:5](https://github.com/gatitolabs/ride-dbtypes/blob/ae9cef7/src/other/shared.ts#L5)

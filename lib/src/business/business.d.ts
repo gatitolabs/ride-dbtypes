@@ -32,8 +32,6 @@ export interface Business {
     rating: number;
     /** contactos extra fuera del correo y telefono - ver {@link BusinessContact}*/
     contacts: BusinessContact[];
-    /** tipo de negocio */
-    businessType: string;
     /** correo electronico del negocio */
     email: string;
     /** descripcion del negocio */
