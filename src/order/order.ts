@@ -23,8 +23,27 @@ export type OrderStatus =
   | 'RatedByClient'
   | 'Rejected';
 
+/** Status de la Orden en español */
+export const statusInSpanish = new Map([
+  ['Pending', 'Pendiente'],
+  ['AcceptedByClient', 'Aceptado por el cliente'],
+  ['Processing', 'Procesando'],
+  ['AssignedToBiker', 'Asignado a un repartidor'],
+  ['InTransit', 'En tránsito'],
+  ['Arriving', 'Llegando'],
+  ['Finished', 'Finalizado'],
+  ['RatedByClient', 'Calidicado por el cliente'],
+  ['Rejected', 'Rechazado']
+]);
+
 /** Metodos de pago */
 export type PaymentMethod = 'SINPE' | 'Cash';
+
+/** Métodos de pago en español */
+export const paymentMethodInSpanish = new Map([
+  ['SINPE', 'SINPE'],
+  ['Cash', 'Efectivo']
+]);
 
 /**
  * Representa un item dentro de una orden.  La informacion se copia de la
@@ -93,4 +112,10 @@ export interface Order {
 
   /** fecha y hora de ultima actualizacion */
   lastUpdate: number;
+
+  /** nombre completo del cliente */
+  customerFirstName: string;
+
+  /** apellidos del cliente */
+  customerLastName: string;
 }
