@@ -29,6 +29,10 @@ jobs:
       - name: Instalar Dependencias
         run: npm install
 
+      - name: Limpiar lib
+        run: |
+          rm -Rf lib
+
       - name: Crear Build
         run: npm run ci
 
