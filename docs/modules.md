@@ -89,7 +89,7 @@ Rejected: Pedido rechazado
 
 #### Defined in
 
-src/order/order.ts:13
+src/order/order.ts:15
 
 ___
 
@@ -101,7 +101,7 @@ Metodos de pago
 
 #### Defined in
 
-src/order/order.ts:25
+src/order/order.ts:27
 
 ___
 
