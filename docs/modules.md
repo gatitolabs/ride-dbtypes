@@ -34,6 +34,11 @@
 - [PaymentMethod](modules.md#paymentmethod)
 - [UserStatus](modules.md#userstatus)
 
+### Variables
+
+- [paymentMethodInSpanish](modules.md#paymentmethodinspanish)
+- [statusInSpanish](modules.md#statusinspanish)
+
 ## Type aliases
 
 ### AdminRole
@@ -44,7 +49,7 @@ Tipo de usuario adminsitrador
 
 #### Defined in
 
-src/admin/admin.ts:6
+[src/admin/admin.ts:6](https://github.com/gatitolabs/ride-dbtypes/blob/0cad899/src/admin/admin.ts#L6)
 
 ___
 
@@ -56,7 +61,7 @@ Si el usuario ciclista esta disponible o no para hacer entregas
 
 #### Defined in
 
-src/biker/biker.ts:4
+[src/biker/biker.ts:4](https://github.com/gatitolabs/ride-dbtypes/blob/0cad899/src/biker/biker.ts#L4)
 
 ___
 
@@ -68,7 +73,7 @@ tipo del contacto adicional, como redes sociales o sitio web
 
 #### Defined in
 
-src/business/business.ts:5
+[src/business/business.ts:5](https://github.com/gatitolabs/ride-dbtypes/blob/0cad899/src/business/business.ts#L5)
 
 ___
 
@@ -89,7 +94,7 @@ Rejected: Pedido rechazado
 
 #### Defined in
 
-src/order/order.ts:15
+[src/order/order.ts:15](https://github.com/gatitolabs/ride-dbtypes/blob/0cad899/src/order/order.ts#L15)
 
 ___
 
@@ -101,7 +106,7 @@ Metodos de pago
 
 #### Defined in
 
-src/order/order.ts:27
+[src/order/order.ts:40](https://github.com/gatitolabs/ride-dbtypes/blob/0cad899/src/order/order.ts#L40)
 
 ___
 
@@ -114,4 +119,28 @@ Bikers, Admin y Business
 
 #### Defined in
 
-src/other/shared.ts:5
+[src/other/shared.ts:5](https://github.com/gatitolabs/ride-dbtypes/blob/0cad899/src/other/shared.ts#L5)
+
+## Variables
+
+### paymentMethodInSpanish
+
+• `Const` **paymentMethodInSpanish**: `Map`<`string`, `string`\>
+
+Métodos de pago en español
+
+#### Defined in
+
+[src/order/order.ts:43](https://github.com/gatitolabs/ride-dbtypes/blob/0cad899/src/order/order.ts#L43)
+
+___
+
+### statusInSpanish
+
+• `Const` **statusInSpanish**: `Map`<`string`, `string`\>
+
+Status de la Orden en español
+
+#### Defined in
+
+[src/order/order.ts:27](https://github.com/gatitolabs/ride-dbtypes/blob/0cad899/src/order/order.ts#L27)

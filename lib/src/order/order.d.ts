@@ -12,8 +12,12 @@ import { Coords } from '../..';
  * Rejected: Pedido rechazado
  * */
 export declare type OrderStatus = 'Pending' | 'AcceptedByClient' | 'Processing' | 'AssignedToBiker' | 'InTransit' | 'Arriving' | 'Finished' | 'RatedByClient' | 'Rejected';
+/** Status de la Orden en español */
+export declare const statusInSpanish: Map<string, string>;
 /** Metodos de pago */
 export declare type PaymentMethod = 'SINPE' | 'Cash';
+/** Métodos de pago en español */
+export declare const paymentMethodInSpanish: Map<string, string>;
 /**
  * Representa un item dentro de una orden.  La informacion se copia de la
  * coleccion de productos.  Si el producto es borrado, este item persiste
@@ -65,4 +69,8 @@ export interface Order {
     deliveryLocation: Coords;
     /** fecha y hora de ultima actualizacion */
     lastUpdate: number;
+    /** nombre completo del cliente */
+    customerFirstName: string;
+    /** apellidos del cliente */
+    customerLastName: string;
 }

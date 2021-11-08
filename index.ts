@@ -6,7 +6,7 @@ export {AdminRole, AdminUser} from './src/admin/admin';
 export {Biker, BikerStatus} from './src/biker/biker';
 export {Business, BusinessContact, BusinessContactType} from './src/business/business';
 export {Customer} from './src/customer/customer';
-export {Order, OrderItem, OrderStatus, PaymentMethod} from './src/order/order';
+export {Order, OrderItem, OrderStatus, PaymentMethod, statusInSpanish, paymentMethodInSpanish} from './src/order/order';
 export {Rating, AverageRating} from './src/order/rating';
 export {DeliveryAvailable} from './src/other/deliveryAvailable';
 export {Product} from './src/product/product';

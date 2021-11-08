@@ -11,7 +11,9 @@ Representa una orden dentro del sistema
 - [bikerId](Order.md#bikerid)
 - [businessId](Order.md#businessid)
 - [created](Order.md#created)
+- [customerFirstName](Order.md#customerfirstname)
 - [customerId](Order.md#customerid)
+- [customerLastName](Order.md#customerlastname)
 - [deliveryLocation](Order.md#deliverylocation)
 - [destinationAddress](Order.md#destinationaddress)
 - [distance](Order.md#distance)
@@ -35,7 +37,7 @@ Firebase User Id del biker (de firebase auth)
 
 #### Defined in
 
-src/order/order.ts:56
+[src/order/order.ts:75](https://github.com/gatitolabs/ride-dbtypes/blob/0cad899/src/order/order.ts#L75)
 
 ___
 
@@ -47,7 +49,7 @@ Firebase User Id del negocio (de firebase auth)
 
 #### Defined in
 
-src/order/order.ts:53
+[src/order/order.ts:72](https://github.com/gatitolabs/ride-dbtypes/blob/0cad899/src/order/order.ts#L72)
 
 ___
 
@@ -59,7 +61,19 @@ fecha y hora de creacion
 
 #### Defined in
 
-src/order/order.ts:89
+[src/order/order.ts:108](https://github.com/gatitolabs/ride-dbtypes/blob/0cad899/src/order/order.ts#L108)
+
+___
+
+### customerFirstName
+
+• **customerFirstName**: `string`
+
+nombre completo del cliente
+
+#### Defined in
+
+[src/order/order.ts:117](https://github.com/gatitolabs/ride-dbtypes/blob/0cad899/src/order/order.ts#L117)
 
 ___
 
@@ -71,7 +85,19 @@ Firebase User Id del usuario (de firebase auth)
 
 #### Defined in
 
-src/order/order.ts:50
+[src/order/order.ts:69](https://github.com/gatitolabs/ride-dbtypes/blob/0cad899/src/order/order.ts#L69)
+
+___
+
+### customerLastName
+
+• **customerLastName**: `string`
+
+apellidos del cliente
+
+#### Defined in
+
+[src/order/order.ts:120](https://github.com/gatitolabs/ride-dbtypes/blob/0cad899/src/order/order.ts#L120)
 
 ___
 
@@ -83,7 +109,7 @@ coordenadas de le entrega (se sacan de la ubicacion actual del Customer)
 
 #### Defined in
 
-src/order/order.ts:92
+[src/order/order.ts:111](https://github.com/gatitolabs/ride-dbtypes/blob/0cad899/src/order/order.ts#L111)
 
 ___
 
@@ -95,7 +121,7 @@ Direccion de entrega de la orden
 
 #### Defined in
 
-src/order/order.ts:77
+[src/order/order.ts:96](https://github.com/gatitolabs/ride-dbtypes/blob/0cad899/src/order/order.ts#L96)
 
 ___
 
@@ -107,7 +133,7 @@ Distancia entre la direccion de origen y destino
 
 #### Defined in
 
-src/order/order.ts:83
+[src/order/order.ts:102](https://github.com/gatitolabs/ride-dbtypes/blob/0cad899/src/order/order.ts#L102)
 
 ___
 
@@ -119,7 +145,7 @@ lista de items en la orden - ver [OrderItem](OrderItem.md)
 
 #### Defined in
 
-src/order/order.ts:65
+[src/order/order.ts:84](https://github.com/gatitolabs/ride-dbtypes/blob/0cad899/src/order/order.ts#L84)
 
 ___
 
@@ -131,7 +157,7 @@ Costo de los items de la orden (sin envio)
 
 #### Defined in
 
-src/order/order.ts:71
+[src/order/order.ts:90](https://github.com/gatitolabs/ride-dbtypes/blob/0cad899/src/order/order.ts#L90)
 
 ___
 
@@ -143,7 +169,7 @@ fecha y hora de ultima actualizacion
 
 #### Defined in
 
-src/order/order.ts:95
+[src/order/order.ts:114](https://github.com/gatitolabs/ride-dbtypes/blob/0cad899/src/order/order.ts#L114)
 
 ___
 
@@ -155,7 +181,7 @@ Metodo de pago de la orden - ver [PaymentMethod](../modules.md#paymentmethod)
 
 #### Defined in
 
-src/order/order.ts:62
+[src/order/order.ts:81](https://github.com/gatitolabs/ride-dbtypes/blob/0cad899/src/order/order.ts#L81)
 
 ___
 
@@ -167,7 +193,7 @@ Direccion de origen de la orden
 
 #### Defined in
 
-src/order/order.ts:80
+[src/order/order.ts:99](https://github.com/gatitolabs/ride-dbtypes/blob/0cad899/src/order/order.ts#L99)
 
 ___
 
@@ -179,7 +205,7 @@ Puntaje de la orden (copiado de Rating)
 
 #### Defined in
 
-src/order/order.ts:86
+[src/order/order.ts:105](https://github.com/gatitolabs/ride-dbtypes/blob/0cad899/src/order/order.ts#L105)
 
 ___
 
@@ -191,7 +217,7 @@ Costo del envio
 
 #### Defined in
 
-src/order/order.ts:74
+[src/order/order.ts:93](https://github.com/gatitolabs/ride-dbtypes/blob/0cad899/src/order/order.ts#L93)
 
 ___
 
@@ -203,7 +229,7 @@ Status de la orden - ver [OrderStatus](../modules.md#orderstatus)
 
 #### Defined in
 
-src/order/order.ts:59
+[src/order/order.ts:78](https://github.com/gatitolabs/ride-dbtypes/blob/0cad899/src/order/order.ts#L78)
 
 ___
 
@@ -215,4 +241,4 @@ Costo total de la orden
 
 #### Defined in
 
-src/order/order.ts:68
+[src/order/order.ts:87](https://github.com/gatitolabs/ride-dbtypes/blob/0cad899/src/order/order.ts#L87)
