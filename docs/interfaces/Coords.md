@@ -19,7 +19,7 @@ Coordenadas
 
 #### Defined in
 
-[src/other/shared.ts:12](https://github.com/gatitolabs/ride-dbtypes/blob/0cad899/src/other/shared.ts#L12)
+[src/other/shared.ts:12](https://github.com/gatitolabs/ride-dbtypes/blob/c046978/src/other/shared.ts#L12)
 
 ___
 
@@ -29,4 +29,4 @@ ___
 
 #### Defined in
 
-[src/other/shared.ts:11](https://github.com/gatitolabs/ride-dbtypes/blob/0cad899/src/other/shared.ts#L11)
+[src/other/shared.ts:11](https://github.com/gatitolabs/ride-dbtypes/blob/c046978/src/other/shared.ts#L11)
