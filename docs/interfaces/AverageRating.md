@@ -28,7 +28,7 @@ Puntaje promedio =>  sumOfRatings / numberOfRatings
 
 #### Defined in
 
-[src/order/rating.ts:45](https://github.com/gatitolabs/ride-dbtypes/blob/0cad899/src/order/rating.ts#L45)
+[src/order/rating.ts:45](https://github.com/gatitolabs/ride-dbtypes/blob/c046978/src/order/rating.ts#L45)
 
 ___
 
@@ -40,7 +40,7 @@ Puntaje promedio de sentimiento => sumOfSentimentScore / numberOfRatings
 
 #### Defined in
 
-[src/order/rating.ts:57](https://github.com/gatitolabs/ride-dbtypes/blob/0cad899/src/order/rating.ts#L57)
+[src/order/rating.ts:57](https://github.com/gatitolabs/ride-dbtypes/blob/c046978/src/order/rating.ts#L57)
 
 ___
 
@@ -52,7 +52,7 @@ Firebase User Id del negocio (de firebase auth)
 
 #### Defined in
 
-[src/order/rating.ts:42](https://github.com/gatitolabs/ride-dbtypes/blob/0cad899/src/order/rating.ts#L42)
+[src/order/rating.ts:42](https://github.com/gatitolabs/ride-dbtypes/blob/c046978/src/order/rating.ts#L42)
 
 ___
 
@@ -64,7 +64,7 @@ fecha y hora de creacion
 
 #### Defined in
 
-[src/order/rating.ts:60](https://github.com/gatitolabs/ride-dbtypes/blob/0cad899/src/order/rating.ts#L60)
+[src/order/rating.ts:60](https://github.com/gatitolabs/ride-dbtypes/blob/c046978/src/order/rating.ts#L60)
 
 ___
 
@@ -76,7 +76,7 @@ fecha y hora de ultima actualizacion
 
 #### Defined in
 
-[src/order/rating.ts:63](https://github.com/gatitolabs/ride-dbtypes/blob/0cad899/src/order/rating.ts#L63)
+[src/order/rating.ts:63](https://github.com/gatitolabs/ride-dbtypes/blob/c046978/src/order/rating.ts#L63)
 
 ___
 
@@ -88,7 +88,7 @@ Cantidad de ratings asignados a este negocio
 
 #### Defined in
 
-[src/order/rating.ts:51](https://github.com/gatitolabs/ride-dbtypes/blob/0cad899/src/order/rating.ts#L51)
+[src/order/rating.ts:51](https://github.com/gatitolabs/ride-dbtypes/blob/c046978/src/order/rating.ts#L51)
 
 ___
 
@@ -100,7 +100,7 @@ Suma total de todos los ratings asignados a este negocio
 
 #### Defined in
 
-[src/order/rating.ts:48](https://github.com/gatitolabs/ride-dbtypes/blob/0cad899/src/order/rating.ts#L48)
+[src/order/rating.ts:48](https://github.com/gatitolabs/ride-dbtypes/blob/c046978/src/order/rating.ts#L48)
 
 ___
 
@@ -112,4 +112,4 @@ Suma total de todos los puntajes de sentimiento asignados reviews de este negoci
 
 #### Defined in
 
-[src/order/rating.ts:54](https://github.com/gatitolabs/ride-dbtypes/blob/0cad899/src/order/rating.ts#L54)
+[src/order/rating.ts:54](https://github.com/gatitolabs/ride-dbtypes/blob/c046978/src/order/rating.ts#L54)

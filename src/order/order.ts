@@ -11,6 +11,7 @@ import {Coords} from '../..';
  * Finished: pedido entregado satisfactoriamente al cliente (este evento lo dispara el ciclista)
  * RatedByClient: pedido tiene un review del usuario (este evento lo dispara el cliente)
  * Rejected: Pedido rechazado
+ * AcceptedByBiker: Pedido asignado fue aceptado por el ciclista
  * */
 export type OrderStatus =
   | 'Pending'
@@ -21,7 +22,8 @@ export type OrderStatus =
   | 'Arriving'
   | 'Finished'
   | 'RatedByClient'
-  | 'Rejected';
+  | 'Rejected'
+  | 'AcceptedByBiker';
 
 /** Status de la Orden en español */
 export const statusInSpanish = new Map([
@@ -32,8 +34,9 @@ export const statusInSpanish = new Map([
   ['InTransit', 'En tránsito'],
   ['Arriving', 'Llegando'],
   ['Finished', 'Finalizado'],
-  ['RatedByClient', 'Calidicado por el cliente'],
-  ['Rejected', 'Rechazado']
+  ['RatedByClient', 'Calificado por el cliente'],
+  ['Rejected', 'Rechazado'],
+  ['AcceptedByBiker', 'Aceptado por el repartidor']
 ]);
 
 /** Metodos de pago */

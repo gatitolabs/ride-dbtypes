@@ -10,8 +10,9 @@ import { Coords } from '../..';
  * Finished: pedido entregado satisfactoriamente al cliente (este evento lo dispara el ciclista)
  * RatedByClient: pedido tiene un review del usuario (este evento lo dispara el cliente)
  * Rejected: Pedido rechazado
+ * AcceptedByBiker: Pedido asignado fue aceptado por el ciclista
  * */
-export declare type OrderStatus = 'Pending' | 'AcceptedByClient' | 'Processing' | 'AssignedToBiker' | 'InTransit' | 'Arriving' | 'Finished' | 'RatedByClient' | 'Rejected';
+export declare type OrderStatus = 'Pending' | 'AcceptedByClient' | 'Processing' | 'AssignedToBiker' | 'InTransit' | 'Arriving' | 'Finished' | 'RatedByClient' | 'Rejected' | 'AcceptedByBiker';
 /** Status de la Orden en español */
 export declare const statusInSpanish: Map<string, string>;
 /** Metodos de pago */
