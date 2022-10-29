@@ -25,7 +25,7 @@ costo del producto
 
 #### Defined in
 
-[src/order/order.ts:62](https://github.com/gatitolabs/ride-dbtypes/blob/c046978/src/order/order.ts#L62)
+[src/order/order.ts:65](https://github.com/gatitolabs/ride-dbtypes/blob/87a2080/src/order/order.ts#L65)
 
 ___
 
@@ -37,7 +37,7 @@ nombre del producto
 
 #### Defined in
 
-[src/order/order.ts:60](https://github.com/gatitolabs/ride-dbtypes/blob/c046978/src/order/order.ts#L60)
+[src/order/order.ts:63](https://github.com/gatitolabs/ride-dbtypes/blob/87a2080/src/order/order.ts#L63)
 
 ___
 
@@ -49,7 +49,7 @@ notas para el producto dentro de la orden
 
 #### Defined in
 
-[src/order/order.ts:64](https://github.com/gatitolabs/ride-dbtypes/blob/c046978/src/order/order.ts#L64)
+[src/order/order.ts:67](https://github.com/gatitolabs/ride-dbtypes/blob/87a2080/src/order/order.ts#L67)
 
 ___
 
@@ -61,4 +61,4 @@ Id del producto (de la coleccion de productos - puede ser de un producto borrado
 
 #### Defined in
 
-[src/order/order.ts:58](https://github.com/gatitolabs/ride-dbtypes/blob/c046978/src/order/order.ts#L58)
+[src/order/order.ts:61](https://github.com/gatitolabs/ride-dbtypes/blob/87a2080/src/order/order.ts#L61)

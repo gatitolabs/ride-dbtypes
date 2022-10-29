@@ -12,6 +12,7 @@ import {Coords} from '../..';
  * RatedByClient: pedido tiene un review del usuario (este evento lo dispara el cliente)
  * Rejected: Pedido rechazado
  * AcceptedByBiker: Pedido asignado fue aceptado por el ciclista
+ * Canceled: el pedido es cancelado por el administrador
  * */
 export type OrderStatus =
   | 'Pending'
@@ -23,7 +24,8 @@ export type OrderStatus =
   | 'Finished'
   | 'RatedByClient'
   | 'Rejected'
-  | 'AcceptedByBiker';
+  | 'AcceptedByBiker'
+  | 'Canceled';
 
 /** Status de la Orden en español */
 export const statusInSpanish = new Map([
@@ -36,7 +38,8 @@ export const statusInSpanish = new Map([
   ['Finished', 'Finalizado'],
   ['RatedByClient', 'Calificado por el cliente'],
   ['Rejected', 'Rechazado'],
-  ['AcceptedByBiker', 'Aceptado por el repartidor']
+  ['AcceptedByBiker', 'Aceptado por el repartidor'],
+  ['Canceled', 'Cancelado']
 ]);
 
 /** Metodos de pago */
@@ -121,4 +124,7 @@ export interface Order {
 
   /** apellidos del cliente */
   customerLastName: string;
+
+  /** Reporte del ciclista */
+  reportByBiker: string;
 }
