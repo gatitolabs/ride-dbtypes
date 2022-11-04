@@ -49,7 +49,7 @@ Tipo de usuario adminsitrador
 
 #### Defined in
 
-[src/admin/admin.ts:6](https://github.com/gatitolabs/ride-dbtypes/blob/c046978/src/admin/admin.ts#L6)
+[src/admin/admin.ts:6](https://github.com/gatitolabs/ride-dbtypes/blob/87a2080/src/admin/admin.ts#L6)
 
 ___
 
@@ -61,7 +61,7 @@ Si el usuario ciclista esta disponible o no para hacer entregas
 
 #### Defined in
 
-[src/biker/biker.ts:4](https://github.com/gatitolabs/ride-dbtypes/blob/c046978/src/biker/biker.ts#L4)
+[src/biker/biker.ts:4](https://github.com/gatitolabs/ride-dbtypes/blob/87a2080/src/biker/biker.ts#L4)
 
 ___
 
@@ -73,13 +73,13 @@ tipo del contacto adicional, como redes sociales o sitio web
 
 #### Defined in
 
-[src/business/business.ts:5](https://github.com/gatitolabs/ride-dbtypes/blob/c046978/src/business/business.ts#L5)
+[src/business/business.ts:5](https://github.com/gatitolabs/ride-dbtypes/blob/87a2080/src/business/business.ts#L5)
 
 ___
 
 ### OrderStatus
 
-Ƭ **OrderStatus**: ``"Pending"`` \| ``"AcceptedByClient"`` \| ``"Processing"`` \| ``"AssignedToBiker"`` \| ``"InTransit"`` \| ``"Arriving"`` \| ``"Finished"`` \| ``"RatedByClient"`` \| ``"Rejected"`` \| ``"AcceptedByBiker"``
+Ƭ **OrderStatus**: ``"Pending"`` \| ``"AcceptedByClient"`` \| ``"Processing"`` \| ``"AssignedToBiker"`` \| ``"InTransit"`` \| ``"Arriving"`` \| ``"Finished"`` \| ``"RatedByClient"`` \| ``"Rejected"`` \| ``"AcceptedByBiker"`` \| ``"Canceled"``
 
 Status de la Orden
 Pending: orden creada por el usuario final, a la espera de que RIDE asigne un costo de envío Y confirmar que el negocio puede hacerse cargo del pedido
@@ -92,10 +92,11 @@ Finished: pedido entregado satisfactoriamente al cliente (este evento lo dispara
 RatedByClient: pedido tiene un review del usuario (este evento lo dispara el cliente)
 Rejected: Pedido rechazado
 AcceptedByBiker: Pedido asignado fue aceptado por el ciclista
+Canceled: el pedido es cancelado por el administrador
 
 #### Defined in
 
-[src/order/order.ts:16](https://github.com/gatitolabs/ride-dbtypes/blob/c046978/src/order/order.ts#L16)
+[src/order/order.ts:17](https://github.com/gatitolabs/ride-dbtypes/blob/87a2080/src/order/order.ts#L17)
 
 ___
 
@@ -107,7 +108,7 @@ Metodos de pago
 
 #### Defined in
 
-[src/order/order.ts:43](https://github.com/gatitolabs/ride-dbtypes/blob/c046978/src/order/order.ts#L43)
+[src/order/order.ts:46](https://github.com/gatitolabs/ride-dbtypes/blob/87a2080/src/order/order.ts#L46)
 
 ___
 
@@ -120,7 +121,7 @@ Bikers, Admin y Business
 
 #### Defined in
 
-[src/other/shared.ts:5](https://github.com/gatitolabs/ride-dbtypes/blob/c046978/src/other/shared.ts#L5)
+[src/other/shared.ts:5](https://github.com/gatitolabs/ride-dbtypes/blob/87a2080/src/other/shared.ts#L5)
 
 ## Variables
 
@@ -132,7 +133,7 @@ Métodos de pago en español
 
 #### Defined in
 
-[src/order/order.ts:46](https://github.com/gatitolabs/ride-dbtypes/blob/c046978/src/order/order.ts#L46)
+[src/order/order.ts:49](https://github.com/gatitolabs/ride-dbtypes/blob/87a2080/src/order/order.ts#L49)
 
 ___
 
@@ -144,4 +145,4 @@ Status de la Orden en español
 
 #### Defined in
 
-[src/order/order.ts:29](https://github.com/gatitolabs/ride-dbtypes/blob/c046978/src/order/order.ts#L29)
+[src/order/order.ts:31](https://github.com/gatitolabs/ride-dbtypes/blob/87a2080/src/order/order.ts#L31)
