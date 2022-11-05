@@ -16,6 +16,9 @@ export interface Customer {
   /** id de firebase auth */
   firebaseUserId: string;
 
+  /** token para los mensajes de la nube */
+  fcmToken: string;
+
   /** numero de celular del usuario */
   cellPhone: string;
 

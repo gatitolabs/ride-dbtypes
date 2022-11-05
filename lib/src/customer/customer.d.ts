@@ -11,6 +11,8 @@ export interface Customer {
     email: string;
     /** id de firebase auth */
     firebaseUserId: string;
+    /** token para los mensajes de la nube */
+    fcmToken: string;
     /** numero de celular del usuario */
     cellPhone: string;
     /** URL de la foto de perfil (almacenada en Firebase Storage) */
