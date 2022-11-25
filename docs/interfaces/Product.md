@@ -14,6 +14,7 @@ Por ejemplo: camiseta blanca, camiseta azul, camiseta verde, etc
 - [businessId](Product.md#businessid)
 - [cost](Product.md#cost)
 - [created](Product.md#created)
+- [deleted](Product.md#deleted)
 - [description](Product.md#description)
 - [lastUpdate](Product.md#lastupdate)
 - [name](Product.md#name)
@@ -30,7 +31,7 @@ Firebase User Id del negocio (de firebase auth)
 
 #### Defined in
 
-[src/product/product.ts:20](https://github.com/gatitolabs/ride-dbtypes/blob/96fe065/src/product/product.ts#L20)
+[src/product/product.ts:20](https://github.com/gatitolabs/ride-dbtypes/blob/52eebc1/src/product/product.ts#L20)
 
 ___
 
@@ -42,7 +43,7 @@ Costo unitario del producto
 
 #### Defined in
 
-[src/product/product.ts:17](https://github.com/gatitolabs/ride-dbtypes/blob/96fe065/src/product/product.ts#L17)
+[src/product/product.ts:17](https://github.com/gatitolabs/ride-dbtypes/blob/52eebc1/src/product/product.ts#L17)
 
 ___
 
@@ -54,7 +55,19 @@ fecha y hora de creacion
 
 #### Defined in
 
-[src/product/product.ts:29](https://github.com/gatitolabs/ride-dbtypes/blob/96fe065/src/product/product.ts#L29)
+[src/product/product.ts:29](https://github.com/gatitolabs/ride-dbtypes/blob/52eebc1/src/product/product.ts#L29)
+
+___
+
+### deleted
+
+• `Optional` **deleted**: `boolean`
+
+Indica si el producto fue borrado o no
+
+#### Defined in
+
+[src/product/product.ts:35](https://github.com/gatitolabs/ride-dbtypes/blob/52eebc1/src/product/product.ts#L35)
 
 ___
 
@@ -66,7 +79,7 @@ Descripcion del producto
 
 #### Defined in
 
-[src/product/product.ts:14](https://github.com/gatitolabs/ride-dbtypes/blob/96fe065/src/product/product.ts#L14)
+[src/product/product.ts:14](https://github.com/gatitolabs/ride-dbtypes/blob/52eebc1/src/product/product.ts#L14)
 
 ___
 
@@ -78,7 +91,7 @@ fecha y hora de ultima actualizacion
 
 #### Defined in
 
-[src/product/product.ts:32](https://github.com/gatitolabs/ride-dbtypes/blob/96fe065/src/product/product.ts#L32)
+[src/product/product.ts:32](https://github.com/gatitolabs/ride-dbtypes/blob/52eebc1/src/product/product.ts#L32)
 
 ___
 
@@ -90,7 +103,7 @@ Nombre del producto
 
 #### Defined in
 
-[src/product/product.ts:11](https://github.com/gatitolabs/ride-dbtypes/blob/96fe065/src/product/product.ts#L11)
+[src/product/product.ts:11](https://github.com/gatitolabs/ride-dbtypes/blob/52eebc1/src/product/product.ts#L11)
 
 ___
 
@@ -102,7 +115,7 @@ URL de la foto de producto (almacenada en Firebase Storage)
 
 #### Defined in
 
-[src/product/product.ts:26](https://github.com/gatitolabs/ride-dbtypes/blob/96fe065/src/product/product.ts#L26)
+[src/product/product.ts:26](https://github.com/gatitolabs/ride-dbtypes/blob/52eebc1/src/product/product.ts#L26)
 
 ___
 
@@ -114,4 +127,4 @@ Lista de Etiquetas a las que pertenece el producto - ver [Tag](Tag.md)
 
 #### Defined in
 
-[src/product/product.ts:23](https://github.com/gatitolabs/ride-dbtypes/blob/96fe065/src/product/product.ts#L23)
+[src/product/product.ts:23](https://github.com/gatitolabs/ride-dbtypes/blob/52eebc1/src/product/product.ts#L23)

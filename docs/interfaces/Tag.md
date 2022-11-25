@@ -22,7 +22,7 @@ descripcion corta del tag (e.g. comida circular con queso y tomate)
 
 #### Defined in
 
-[src/product/tag.ts:10](https://github.com/gatitolabs/ride-dbtypes/blob/96fe065/src/product/tag.ts#L10)
+[src/product/tag.ts:10](https://github.com/gatitolabs/ride-dbtypes/blob/52eebc1/src/product/tag.ts#L10)
 
 ___
 
@@ -34,4 +34,4 @@ nombre del tag (e.g. pizza)
 
 #### Defined in
 
-[src/product/tag.ts:7](https://github.com/gatitolabs/ride-dbtypes/blob/96fe065/src/product/tag.ts#L7)
+[src/product/tag.ts:7](https://github.com/gatitolabs/ride-dbtypes/blob/52eebc1/src/product/tag.ts#L7)
