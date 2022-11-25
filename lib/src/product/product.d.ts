@@ -23,5 +23,5 @@ export interface Product {
     /** fecha y hora de ultima actualizacion */
     lastUpdate: number;
     /** Indica si el producto fue borrado o no */
-    deleted: boolean;
+    deleted?: boolean;
 }

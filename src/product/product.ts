@@ -32,5 +32,5 @@ export interface Product {
   lastUpdate: number;
 
   /** Indica si el producto fue borrado o no */
-  deleted: boolean;
+  deleted?: boolean;
 }
