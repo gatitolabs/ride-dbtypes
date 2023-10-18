@@ -57,6 +57,8 @@ export interface Order {
     itemsCost: number;
     /** Costo del envio */
     serviceCost: number;
+    /** Propina para el ciclista */
+    tip: number;
     /** Direccion de entrega de la orden */
     destinationAddress: string;
     /** Direccion de origen de la orden */
