@@ -17,7 +17,7 @@
 
 #### Defined in
 
-[src/admin/configItem.ts:2](https://github.com/gatitolabs/ride-dbtypes/blob/52eebc1/src/admin/configItem.ts#L2)
+[src/admin/configItem.ts:2](https://github.com/gatitolabs/ride-dbtypes/blob/5d6cff1/src/admin/configItem.ts#L2)
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 #### Defined in
 
-[src/admin/configItem.ts:3](https://github.com/gatitolabs/ride-dbtypes/blob/52eebc1/src/admin/configItem.ts#L3)
+[src/admin/configItem.ts:3](https://github.com/gatitolabs/ride-dbtypes/blob/5d6cff1/src/admin/configItem.ts#L3)
