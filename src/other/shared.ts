@@ -11,3 +11,5 @@ export interface Coords {
   longitude: number;
   latitude: number;
 }
+
+export type UserType = 'biker' | 'customer' | 'business';

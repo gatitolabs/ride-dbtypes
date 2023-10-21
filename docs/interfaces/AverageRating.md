@@ -2,21 +2,18 @@
 
 # Interface: AverageRating
 
-Promedio de ratings por negocio
-Calculado automaticamente por un Cloud Function
+Promedio de ratings por usuario (puede ser un cliente, un negocio, un repartidor, etc.)
+Calculado automáticamente por un Cloud Function
 
 ## Table of contents
 
 ### Properties
 
 - [average](AverageRating.md#average)
-- [averageSentimentScore](AverageRating.md#averagesentimentscore)
-- [businessId](AverageRating.md#businessid)
-- [created](AverageRating.md#created)
-- [lastUpdate](AverageRating.md#lastupdate)
 - [numberOfRatings](AverageRating.md#numberofratings)
+- [ratedUserId](AverageRating.md#rateduserid)
+- [ratedUserType](AverageRating.md#ratedusertype)
 - [sumOfRatings](AverageRating.md#sumofratings)
-- [sumOfSentimentScore](AverageRating.md#sumofsentimentscore)
 
 ## Properties
 
@@ -24,59 +21,11 @@ Calculado automaticamente por un Cloud Function
 
 • **average**: `number`
 
-Puntaje promedio =>  sumOfRatings / numberOfRatings
+Puntaje promedio => sumOfRatings / numberOfRatings
 
 #### Defined in
 
-[src/order/rating.ts:45](https://github.com/gatitolabs/ride-dbtypes/blob/5d6cff1/src/order/rating.ts#L45)
-
-___
-
-### averageSentimentScore
-
-• **averageSentimentScore**: `number`
-
-Puntaje promedio de sentimiento => sumOfSentimentScore / numberOfRatings
-
-#### Defined in
-
-[src/order/rating.ts:57](https://github.com/gatitolabs/ride-dbtypes/blob/5d6cff1/src/order/rating.ts#L57)
-
-___
-
-### businessId
-
-• **businessId**: `string`
-
-Firebase User Id del negocio (de firebase auth)
-
-#### Defined in
-
-[src/order/rating.ts:42](https://github.com/gatitolabs/ride-dbtypes/blob/5d6cff1/src/order/rating.ts#L42)
-
-___
-
-### created
-
-• **created**: `number`
-
-fecha y hora de creacion
-
-#### Defined in
-
-[src/order/rating.ts:60](https://github.com/gatitolabs/ride-dbtypes/blob/5d6cff1/src/order/rating.ts#L60)
-
-___
-
-### lastUpdate
-
-• **lastUpdate**: `number`
-
-fecha y hora de ultima actualizacion
-
-#### Defined in
-
-[src/order/rating.ts:63](https://github.com/gatitolabs/ride-dbtypes/blob/5d6cff1/src/order/rating.ts#L63)
+src/rating/averageRating.ts:20
 
 ___
 
@@ -84,11 +33,35 @@ ___
 
 • **numberOfRatings**: `number`
 
-Cantidad de ratings asignados a este negocio
+Cantidad de ratings asignados a este usuario
 
 #### Defined in
 
-[src/order/rating.ts:51](https://github.com/gatitolabs/ride-dbtypes/blob/5d6cff1/src/order/rating.ts#L51)
+src/rating/averageRating.ts:17
+
+___
+
+### ratedUserId
+
+• **ratedUserId**: `string`
+
+Firebase User Id del usuario calificado (de firebase auth).
+
+#### Defined in
+
+src/rating/averageRating.ts:8
+
+___
+
+### ratedUserType
+
+• **ratedUserType**: [`UserType`](../modules.md#usertype)
+
+Tipo del usuario calificado (customer, business, biker, etc.).
+
+#### Defined in
+
+src/rating/averageRating.ts:11
 
 ___
 
@@ -96,20 +69,8 @@ ___
 
 • **sumOfRatings**: `number`
 
-Suma total de todos los ratings asignados a este negocio
+Suma total de todos los ratings asignados a este usuario
 
 #### Defined in
 
-[src/order/rating.ts:48](https://github.com/gatitolabs/ride-dbtypes/blob/5d6cff1/src/order/rating.ts#L48)
-
-___
-
-### sumOfSentimentScore
-
-• **sumOfSentimentScore**: `number`
-
-Suma total de todos los puntajes de sentimiento asignados reviews de este negocio
-
-#### Defined in
-
-[src/order/rating.ts:54](https://github.com/gatitolabs/ride-dbtypes/blob/5d6cff1/src/order/rating.ts#L54)
+src/rating/averageRating.ts:14

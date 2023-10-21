@@ -10,3 +10,4 @@ export interface Coords {
     longitude: number;
     latitude: number;
 }
+export declare type UserType = 'biker' | 'customer' | 'business';

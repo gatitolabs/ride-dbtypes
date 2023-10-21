@@ -1,4 +1,5 @@
 import { Coords } from '../..';
+import { Rating } from '../..';
 /**
  * Status de la Orden
  * Pending: orden creada por el usuario final, a la espera de que RIDE asigne un costo de envío Y confirmar que el negocio puede hacerse cargo del pedido
@@ -65,8 +66,8 @@ export interface Order {
     originAddress: string;
     /** Distancia entre la direccion de origen y destino */
     distance: number;
-    /** Puntaje de la orden (copiado de Rating) */
-    ratingScore: number;
+    /** Calificanes de las órdenes */
+    ratings: Rating[];
     /** fecha y hora de creacion */
     created: number;
     /** coordenadas de le entrega (se sacan de la ubicacion actual del Customer) */
