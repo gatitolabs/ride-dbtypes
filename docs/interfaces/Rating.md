@@ -2,139 +2,87 @@
 
 # Interface: Rating
 
-Puntaje (rating) de una orden especifica
+Rating proporcionado por un usuario para un negocio u otro usuario.
 
 ## Table of contents
 
 ### Properties
 
-- [bikerId](Rating.md#bikerid)
-- [businessId](Rating.md#businessid)
-- [comment](Rating.md#comment)
-- [created](Rating.md#created)
-- [customerId](Rating.md#customerid)
-- [lastUpdate](Rating.md#lastupdate)
-- [numericRating](Rating.md#numericrating)
-- [orderDate](Rating.md#orderdate)
-- [sentimentScore](Rating.md#sentimentscore)
-- [userName](Rating.md#username)
+- [feedback](Rating.md#feedback)
+- [ratedUserId](Rating.md#rateduserid)
+- [ratedUserType](Rating.md#ratedusertype)
+- [raterUserId](Rating.md#rateruserid)
+- [raterUserType](Rating.md#raterusertype)
+- [ratingValue](Rating.md#ratingvalue)
 
 ## Properties
 
-### bikerId
+### feedback
 
-• **bikerId**: `string`
+• **feedback**: `string`
 
-Firebase User Id del ciclista (de firebase auth)
+Comentario recibido
 
 #### Defined in
 
-[src/order/rating.ts:12](https://github.com/gatitolabs/ride-dbtypes/blob/5d6cff1/src/order/rating.ts#L12)
+src/rating/rating.ts:16
 
 ___
 
-### businessId
+### ratedUserId
 
-• **businessId**: `string`
+• **ratedUserId**: `string`
 
-Firebase User Id del negocio (de firebase auth)
+Firebase User Id del usuario calificado (de firebase auth).
 
 #### Defined in
 
-[src/order/rating.ts:9](https://github.com/gatitolabs/ride-dbtypes/blob/5d6cff1/src/order/rating.ts#L9)
+src/rating/rating.ts:19
 
 ___
 
-### comment
+### ratedUserType
 
-• **comment**: `string`
+• **ratedUserType**: [`UserType`](../modules.md#usertype)
 
-Comentario del usuario asociado a este puntaje
+Tipo del usuario calificado (customer, business, biker, etc.).
 
 #### Defined in
 
-[src/order/rating.ts:24](https://github.com/gatitolabs/ride-dbtypes/blob/5d6cff1/src/order/rating.ts#L24)
+src/rating/rating.ts:22
 
 ___
 
-### created
+### raterUserId
 
-• **created**: `number`
+• **raterUserId**: `string`
 
-fecha y hora de creacion
+Firebase User Id del usuario que proporcionó el rating
 
 #### Defined in
 
-[src/order/rating.ts:30](https://github.com/gatitolabs/ride-dbtypes/blob/5d6cff1/src/order/rating.ts#L30)
+src/rating/rating.ts:7
 
 ___
 
-### customerId
+### raterUserType
 
-• **customerId**: `string`
+• **raterUserType**: [`UserType`](../modules.md#usertype)
 
-Firebase User Id del usuario (de firebase auth)
+Tipo del usuario que proporcionó el rating
 
 #### Defined in
 
-[src/order/rating.ts:6](https://github.com/gatitolabs/ride-dbtypes/blob/5d6cff1/src/order/rating.ts#L6)
+src/rating/rating.ts:10
 
 ___
 
-### lastUpdate
+### ratingValue
 
-• **lastUpdate**: `number`
+• **ratingValue**: `number`
 
-fecha y hora de ultima actualizacion
-
-#### Defined in
-
-[src/order/rating.ts:33](https://github.com/gatitolabs/ride-dbtypes/blob/5d6cff1/src/order/rating.ts#L33)
-
-___
-
-### numericRating
-
-• **numericRating**: `number`
-
-Puntaje
+Valor numérico del rating (puede ser una puntuación, estrella, etc.)
 
 #### Defined in
 
-[src/order/rating.ts:21](https://github.com/gatitolabs/ride-dbtypes/blob/5d6cff1/src/order/rating.ts#L21)
-
-___
-
-### orderDate
-
-• **orderDate**: `number`
-
-Fecha de la orden
-
-#### Defined in
-
-[src/order/rating.ts:15](https://github.com/gatitolabs/ride-dbtypes/blob/5d6cff1/src/order/rating.ts#L15)
-
-___
-
-### sentimentScore
-
-• **sentimentScore**: `number`
-
-Puntaje del API de Analisis de Sentimiento de Google
-
-#### Defined in
-
-[src/order/rating.ts:27](https://github.com/gatitolabs/ride-dbtypes/blob/5d6cff1/src/order/rating.ts#L27)
-
-___
-
-### userName
-
-• **userName**: `string`
-
-Nombre completo del usuario que asigno este puntaje
-
-#### Defined in
-
-[src/order/rating.ts:18](https://github.com/gatitolabs/ride-dbtypes/blob/5d6cff1/src/order/rating.ts#L18)
+src/rating/rating.ts:13

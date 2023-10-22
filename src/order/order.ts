@@ -1,4 +1,5 @@
 import {Coords} from '../..';
+import {Rating} from '../..';
 
 /**
  * Status de la Orden
@@ -110,8 +111,8 @@ export interface Order {
   /** Distancia entre la direccion de origen y destino */
   distance: number;
 
-  /** Puntaje de la orden (copiado de Rating) */
-  ratingScore: number;
+  /** Calificanes de las órdenes */
+  ratings: Rating[];
 
   /** fecha y hora de creacion */
   created: number;
