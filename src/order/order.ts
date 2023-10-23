@@ -132,3 +132,33 @@ export interface Order {
   /** Reporte del ciclista */
   reportByBiker: string;
 }
+
+/**
+ * Representa la información de sinpe móvil donde el usuario puede realizar el pago
+ */
+export interface SinpeData {
+
+  /** cédula jurídica, física, dimex o otras de la persona dueña de la cuenta */
+  ownerId: string;
+
+  /** nombre de la persona dueña de la cuenta */
+  firstName: string;
+
+  /** apellidos de la persona dueña de la cuenta */
+  lastName: string;
+
+  /** número de teléfono a al que está asociada la cuenta */
+  phoneNumber: string;
+}
+
+/**
+ * Representa la configuración de las órdenes
+ * Especificamente se configura el precio por kilómetro y los donde pagar
+ */
+export interface OrderSettings {
+  /** objeto con los datos de sinpe móvil - ver {@link SinpeData}*/
+  sinpeData: SinpeData;
+
+  /** valor real del monto que se cobra por kilómetro */
+  kilometerPrice: number;
+}
