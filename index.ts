@@ -12,7 +12,9 @@ export {
   OrderStatus,
   PaymentMethod,
   statusInSpanish,
-  paymentMethodInSpanish
+  paymentMethodInSpanish,
+  SinpeData,
+  OrderSettings
 } from './src/order/order';
 export {Rating} from './src/rating/rating';
 export {AverageRating} from './src/rating/averageRating';
@@ -56,5 +58,8 @@ export enum FirestoreCollections {
   tags = 'tags',
 
   /** Coleccion de {@link ConfigItem} */
-  configItems = 'configItems'
+  configItems = 'configItems',
+
+  /** Coleccion de {@link OrderSettings} */
+  orderSettings = 'orderSettings'
 }
