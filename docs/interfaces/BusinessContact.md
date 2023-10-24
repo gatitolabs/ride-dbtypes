@@ -21,7 +21,7 @@ tipo del contacto - ver [BusinessContact](BusinessContact.md)
 
 #### Defined in
 
-[src/business/business.ts:10](https://github.com/gatitolabs/ride-dbtypes/blob/1de9b75/src/business/business.ts#L10)
+[src/business/business.ts:10](https://github.com/gatitolabs/ride-dbtypes/blob/c9f7d09/src/business/business.ts#L10)
 
 ___
 
@@ -33,4 +33,4 @@ url del contacto
 
 #### Defined in
 
-[src/business/business.ts:13](https://github.com/gatitolabs/ride-dbtypes/blob/1de9b75/src/business/business.ts#L13)
+[src/business/business.ts:13](https://github.com/gatitolabs/ride-dbtypes/blob/c9f7d09/src/business/business.ts#L13)
