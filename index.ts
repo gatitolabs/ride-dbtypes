@@ -19,7 +19,7 @@ export {AverageRating} from './src/rating/averageRating';
 export {DeliveryAvailable} from './src/other/deliveryAvailable';
 export {Product} from './src/product/product';
 export {Tag} from './src/product/tag';
-export {ConfigItem} from './src/admin/configItem';
+export {ConfigItem, SinpeData} from './src/admin/configItem';
 export {UserStatus, Coords, UserType} from './src/other/shared';
 /**
  * Colecciones de Firestore

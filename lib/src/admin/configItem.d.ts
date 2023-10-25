@@ -14,4 +14,21 @@ export interface ConfigItem {
     facebook: string;
     /** URL de instagram oficial de la aplicación RIDE */
     instragram: string;
+    /** objeto con los datos de sinpe móvil - ver {@link SinpeData}*/
+    sinpeData: SinpeData;
+    /** valor real del monto que se cobra por kilómetro */
+    kilometerPrice: number;
+}
+/**
+ * Representa la información de sinpe móvil donde el usuario puede realizar el pago
+ */
+export interface SinpeData {
+    /** cédula jurídica, física, dimex o otras de la persona dueña de la cuenta */
+    ownerId: string;
+    /** nombre de la persona dueña de la cuenta */
+    firstName: string;
+    /** apellidos de la persona dueña de la cuenta */
+    lastName: string;
+    /** número de teléfono a al que está asociada la cuenta */
+    phoneNumber: string;
 }
