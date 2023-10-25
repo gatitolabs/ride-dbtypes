@@ -30,7 +30,7 @@ Coleccion de [AdminUser](../interfaces/AdminUser.md)
 
 #### Defined in
 
-[index.ts:29](https://github.com/gatitolabs/ride-dbtypes/blob/1de9b75/index.ts#L29)
+[index.ts:29](https://github.com/gatitolabs/ride-dbtypes/blob/77ee6f4/index.ts#L29)
 
 ___
 
@@ -42,7 +42,7 @@ Coleccion de [AverageRating](../interfaces/AverageRating.md)
 
 #### Defined in
 
-[index.ts:47](https://github.com/gatitolabs/ride-dbtypes/blob/1de9b75/index.ts#L47)
+[index.ts:47](https://github.com/gatitolabs/ride-dbtypes/blob/77ee6f4/index.ts#L47)
 
 ___
 
@@ -54,7 +54,7 @@ Coleccion de [Biker](../interfaces/Biker.md)
 
 #### Defined in
 
-[index.ts:32](https://github.com/gatitolabs/ride-dbtypes/blob/1de9b75/index.ts#L32)
+[index.ts:32](https://github.com/gatitolabs/ride-dbtypes/blob/77ee6f4/index.ts#L32)
 
 ___
 
@@ -66,7 +66,7 @@ Coleccion de [Business](../interfaces/Business.md)
 
 #### Defined in
 
-[index.ts:35](https://github.com/gatitolabs/ride-dbtypes/blob/1de9b75/index.ts#L35)
+[index.ts:35](https://github.com/gatitolabs/ride-dbtypes/blob/77ee6f4/index.ts#L35)
 
 ___
 
@@ -78,7 +78,7 @@ Coleccion de [ConfigItem](../interfaces/ConfigItem.md)
 
 #### Defined in
 
-[index.ts:59](https://github.com/gatitolabs/ride-dbtypes/blob/1de9b75/index.ts#L59)
+[index.ts:59](https://github.com/gatitolabs/ride-dbtypes/blob/77ee6f4/index.ts#L59)
 
 ___
 
@@ -90,7 +90,7 @@ Coleccion de [Customer](../interfaces/Customer.md)
 
 #### Defined in
 
-[index.ts:38](https://github.com/gatitolabs/ride-dbtypes/blob/1de9b75/index.ts#L38)
+[index.ts:38](https://github.com/gatitolabs/ride-dbtypes/blob/77ee6f4/index.ts#L38)
 
 ___
 
@@ -102,7 +102,7 @@ Coleccion de [DeliveryAvailable](../interfaces/DeliveryAvailable.md)
 
 #### Defined in
 
-[index.ts:50](https://github.com/gatitolabs/ride-dbtypes/blob/1de9b75/index.ts#L50)
+[index.ts:50](https://github.com/gatitolabs/ride-dbtypes/blob/77ee6f4/index.ts#L50)
 
 ___
 
@@ -114,7 +114,7 @@ Coleccion de [Order](../interfaces/Order.md)
 
 #### Defined in
 
-[index.ts:41](https://github.com/gatitolabs/ride-dbtypes/blob/1de9b75/index.ts#L41)
+[index.ts:41](https://github.com/gatitolabs/ride-dbtypes/blob/77ee6f4/index.ts#L41)
 
 ___
 
@@ -126,7 +126,7 @@ Coleccion de [Product](../interfaces/Product.md)
 
 #### Defined in
 
-[index.ts:53](https://github.com/gatitolabs/ride-dbtypes/blob/1de9b75/index.ts#L53)
+[index.ts:53](https://github.com/gatitolabs/ride-dbtypes/blob/77ee6f4/index.ts#L53)
 
 ___
 
@@ -138,7 +138,7 @@ Coleccion de [Rating](../interfaces/Rating.md)
 
 #### Defined in
 
-[index.ts:44](https://github.com/gatitolabs/ride-dbtypes/blob/1de9b75/index.ts#L44)
+[index.ts:44](https://github.com/gatitolabs/ride-dbtypes/blob/77ee6f4/index.ts#L44)
 
 ___
 
@@ -150,4 +150,4 @@ Coleccion de [Tag](../interfaces/Tag.md)
 
 #### Defined in
 
-[index.ts:56](https://github.com/gatitolabs/ride-dbtypes/blob/1de9b75/index.ts#L56)
+[index.ts:56](https://github.com/gatitolabs/ride-dbtypes/blob/77ee6f4/index.ts#L56)
