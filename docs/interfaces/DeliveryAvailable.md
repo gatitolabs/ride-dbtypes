@@ -23,7 +23,7 @@ Lista de IDs de los ciclistas a los que se les asigna la entrega como disponible
 
 #### Defined in
 
-[src/other/deliveryAvailable.ts:11](https://github.com/gatitolabs/ride-dbtypes/blob/1de9b75/src/other/deliveryAvailable.ts#L11)
+[src/other/deliveryAvailable.ts:11](https://github.com/gatitolabs/ride-dbtypes/blob/77ee6f4/src/other/deliveryAvailable.ts#L11)
 
 ___
 
@@ -35,4 +35,4 @@ Id de la orden
 
 #### Defined in
 
-[src/other/deliveryAvailable.ts:8](https://github.com/gatitolabs/ride-dbtypes/blob/1de9b75/src/other/deliveryAvailable.ts#L8)
+[src/other/deliveryAvailable.ts:8](https://github.com/gatitolabs/ride-dbtypes/blob/77ee6f4/src/other/deliveryAvailable.ts#L8)
