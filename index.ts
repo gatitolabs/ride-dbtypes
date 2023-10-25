@@ -12,16 +12,14 @@ export {
   OrderStatus,
   PaymentMethod,
   statusInSpanish,
-  paymentMethodInSpanish,
-  SinpeData,
-  OrderSettings
+  paymentMethodInSpanish
 } from './src/order/order';
 export {Rating} from './src/rating/rating';
 export {AverageRating} from './src/rating/averageRating';
 export {DeliveryAvailable} from './src/other/deliveryAvailable';
 export {Product} from './src/product/product';
 export {Tag} from './src/product/tag';
-export {ConfigItem} from './src/admin/configItem';
+export {ConfigItem, SinpeData} from './src/admin/configItem';
 export {UserStatus, Coords, UserType} from './src/other/shared';
 /**
  * Colecciones de Firestore
@@ -58,8 +56,5 @@ export enum FirestoreCollections {
   tags = 'tags',
 
   /** Coleccion de {@link ConfigItem} */
-  configItems = 'configItems',
-
-  /** Coleccion de {@link OrderSettings} */
-  orderSettings = 'orderSettings'
+  configItems = 'configItems'
 }
