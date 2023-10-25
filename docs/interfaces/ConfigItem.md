@@ -12,9 +12,11 @@ Configuración general sobre RIDE
 - [email](ConfigItem.md#email)
 - [facebook](ConfigItem.md#facebook)
 - [instragram](ConfigItem.md#instragram)
+- [kilometerPrice](ConfigItem.md#kilometerprice)
 - [name](ConfigItem.md#name)
 - [phoneEmergency](ConfigItem.md#phoneemergency)
 - [phoneInformation](ConfigItem.md#phoneinformation)
+- [sinpeData](ConfigItem.md#sinpedata)
 
 ## Properties
 
@@ -26,7 +28,7 @@ da información sobre la aplicación RIDE
 
 #### Defined in
 
-[src/admin/configItem.ts:7](https://github.com/gatitolabs/ride-dbtypes/blob/77ee6f4/src/admin/configItem.ts#L7)
+[src/admin/configItem.ts:7](https://github.com/gatitolabs/ride-dbtypes/blob/c1fc7c5/src/admin/configItem.ts#L7)
 
 ___
 
@@ -38,7 +40,7 @@ correo electrónico oficial de la aplicación RIDE
 
 #### Defined in
 
-[src/admin/configItem.ts:16](https://github.com/gatitolabs/ride-dbtypes/blob/77ee6f4/src/admin/configItem.ts#L16)
+[src/admin/configItem.ts:16](https://github.com/gatitolabs/ride-dbtypes/blob/c1fc7c5/src/admin/configItem.ts#L16)
 
 ___
 
@@ -50,7 +52,7 @@ URL de facebook oficial de la aplicación RIDE
 
 #### Defined in
 
-[src/admin/configItem.ts:19](https://github.com/gatitolabs/ride-dbtypes/blob/77ee6f4/src/admin/configItem.ts#L19)
+[src/admin/configItem.ts:19](https://github.com/gatitolabs/ride-dbtypes/blob/c1fc7c5/src/admin/configItem.ts#L19)
 
 ___
 
@@ -62,7 +64,19 @@ URL de instagram oficial de la aplicación RIDE
 
 #### Defined in
 
-[src/admin/configItem.ts:22](https://github.com/gatitolabs/ride-dbtypes/blob/77ee6f4/src/admin/configItem.ts#L22)
+[src/admin/configItem.ts:22](https://github.com/gatitolabs/ride-dbtypes/blob/c1fc7c5/src/admin/configItem.ts#L22)
+
+___
+
+### kilometerPrice
+
+• **kilometerPrice**: `number`
+
+valor real del monto que se cobra por kilómetro
+
+#### Defined in
+
+[src/admin/configItem.ts:28](https://github.com/gatitolabs/ride-dbtypes/blob/c1fc7c5/src/admin/configItem.ts#L28)
 
 ___
 
@@ -74,7 +88,7 @@ nombre de la aplicación RIDE
 
 #### Defined in
 
-[src/admin/configItem.ts:4](https://github.com/gatitolabs/ride-dbtypes/blob/77ee6f4/src/admin/configItem.ts#L4)
+[src/admin/configItem.ts:4](https://github.com/gatitolabs/ride-dbtypes/blob/c1fc7c5/src/admin/configItem.ts#L4)
 
 ___
 
@@ -86,7 +100,7 @@ número de emergencia para comunicarse con RIDE dashboard
 
 #### Defined in
 
-[src/admin/configItem.ts:10](https://github.com/gatitolabs/ride-dbtypes/blob/77ee6f4/src/admin/configItem.ts#L10)
+[src/admin/configItem.ts:10](https://github.com/gatitolabs/ride-dbtypes/blob/c1fc7c5/src/admin/configItem.ts#L10)
 
 ___
 
@@ -98,4 +112,16 @@ número para obtener información sobre la aplicación RIDE
 
 #### Defined in
 
-[src/admin/configItem.ts:13](https://github.com/gatitolabs/ride-dbtypes/blob/77ee6f4/src/admin/configItem.ts#L13)
+[src/admin/configItem.ts:13](https://github.com/gatitolabs/ride-dbtypes/blob/c1fc7c5/src/admin/configItem.ts#L13)
+
+___
+
+### sinpeData
+
+• **sinpeData**: [`SinpeData`](SinpeData.md)
+
+objeto con los datos de sinpe móvil - ver [SinpeData](SinpeData.md)
+
+#### Defined in
+
+[src/admin/configItem.ts:25](https://github.com/gatitolabs/ride-dbtypes/blob/c1fc7c5/src/admin/configItem.ts#L25)
