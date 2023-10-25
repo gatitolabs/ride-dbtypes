@@ -26,7 +26,7 @@ da información sobre la aplicación RIDE
 
 #### Defined in
 
-[src/admin/configItem.ts:7](https://github.com/gatitolabs/ride-dbtypes/blob/c9f7d09/src/admin/configItem.ts#L7)
+[src/admin/configItem.ts:7](https://github.com/gatitolabs/ride-dbtypes/blob/77ee6f4/src/admin/configItem.ts#L7)
 
 ___
 
@@ -38,7 +38,7 @@ correo electrónico oficial de la aplicación RIDE
 
 #### Defined in
 
-[src/admin/configItem.ts:16](https://github.com/gatitolabs/ride-dbtypes/blob/c9f7d09/src/admin/configItem.ts#L16)
+[src/admin/configItem.ts:16](https://github.com/gatitolabs/ride-dbtypes/blob/77ee6f4/src/admin/configItem.ts#L16)
 
 ___
 
@@ -50,7 +50,7 @@ URL de facebook oficial de la aplicación RIDE
 
 #### Defined in
 
-[src/admin/configItem.ts:19](https://github.com/gatitolabs/ride-dbtypes/blob/c9f7d09/src/admin/configItem.ts#L19)
+[src/admin/configItem.ts:19](https://github.com/gatitolabs/ride-dbtypes/blob/77ee6f4/src/admin/configItem.ts#L19)
 
 ___
 
@@ -62,7 +62,7 @@ URL de instagram oficial de la aplicación RIDE
 
 #### Defined in
 
-[src/admin/configItem.ts:22](https://github.com/gatitolabs/ride-dbtypes/blob/c9f7d09/src/admin/configItem.ts#L22)
+[src/admin/configItem.ts:22](https://github.com/gatitolabs/ride-dbtypes/blob/77ee6f4/src/admin/configItem.ts#L22)
 
 ___
 
@@ -74,7 +74,7 @@ nombre de la aplicación RIDE
 
 #### Defined in
 
-[src/admin/configItem.ts:4](https://github.com/gatitolabs/ride-dbtypes/blob/c9f7d09/src/admin/configItem.ts#L4)
+[src/admin/configItem.ts:4](https://github.com/gatitolabs/ride-dbtypes/blob/77ee6f4/src/admin/configItem.ts#L4)
 
 ___
 
@@ -86,7 +86,7 @@ número de emergencia para comunicarse con RIDE dashboard
 
 #### Defined in
 
-[src/admin/configItem.ts:10](https://github.com/gatitolabs/ride-dbtypes/blob/c9f7d09/src/admin/configItem.ts#L10)
+[src/admin/configItem.ts:10](https://github.com/gatitolabs/ride-dbtypes/blob/77ee6f4/src/admin/configItem.ts#L10)
 
 ___
 
@@ -98,4 +98,4 @@ número para obtener información sobre la aplicación RIDE
 
 #### Defined in
 
-[src/admin/configItem.ts:13](https://github.com/gatitolabs/ride-dbtypes/blob/c9f7d09/src/admin/configItem.ts#L13)
+[src/admin/configItem.ts:13](https://github.com/gatitolabs/ride-dbtypes/blob/77ee6f4/src/admin/configItem.ts#L13)

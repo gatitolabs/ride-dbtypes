@@ -50,7 +50,7 @@ Tipo de usuario adminsitrador
 
 #### Defined in
 
-[src/admin/admin.ts:6](https://github.com/gatitolabs/ride-dbtypes/blob/c9f7d09/src/admin/admin.ts#L6)
+[src/admin/admin.ts:6](https://github.com/gatitolabs/ride-dbtypes/blob/77ee6f4/src/admin/admin.ts#L6)
 
 ___
 
@@ -62,7 +62,7 @@ Si el usuario ciclista esta disponible o no para hacer entregas
 
 #### Defined in
 
-[src/biker/biker.ts:4](https://github.com/gatitolabs/ride-dbtypes/blob/c9f7d09/src/biker/biker.ts#L4)
+[src/biker/biker.ts:4](https://github.com/gatitolabs/ride-dbtypes/blob/77ee6f4/src/biker/biker.ts#L4)
 
 ___
 
@@ -74,7 +74,7 @@ tipo del contacto adicional, como redes sociales o sitio web
 
 #### Defined in
 
-[src/business/business.ts:5](https://github.com/gatitolabs/ride-dbtypes/blob/c9f7d09/src/business/business.ts#L5)
+[src/business/business.ts:5](https://github.com/gatitolabs/ride-dbtypes/blob/77ee6f4/src/business/business.ts#L5)
 
 ___
 
@@ -97,7 +97,7 @@ Canceled: el pedido es cancelado por el administrador
 
 #### Defined in
 
-[src/order/order.ts:18](https://github.com/gatitolabs/ride-dbtypes/blob/c9f7d09/src/order/order.ts#L18)
+[src/order/order.ts:18](https://github.com/gatitolabs/ride-dbtypes/blob/77ee6f4/src/order/order.ts#L18)
 
 ___
 
@@ -109,7 +109,7 @@ Metodos de pago
 
 #### Defined in
 
-[src/order/order.ts:47](https://github.com/gatitolabs/ride-dbtypes/blob/c9f7d09/src/order/order.ts#L47)
+[src/order/order.ts:47](https://github.com/gatitolabs/ride-dbtypes/blob/77ee6f4/src/order/order.ts#L47)
 
 ___
 
@@ -122,7 +122,7 @@ Bikers, Admin y Business
 
 #### Defined in
 
-[src/other/shared.ts:5](https://github.com/gatitolabs/ride-dbtypes/blob/c9f7d09/src/other/shared.ts#L5)
+[src/other/shared.ts:5](https://github.com/gatitolabs/ride-dbtypes/blob/77ee6f4/src/other/shared.ts#L5)
 
 ___
 
@@ -132,7 +132,7 @@ ___
 
 #### Defined in
 
-[src/other/shared.ts:15](https://github.com/gatitolabs/ride-dbtypes/blob/c9f7d09/src/other/shared.ts#L15)
+[src/other/shared.ts:15](https://github.com/gatitolabs/ride-dbtypes/blob/77ee6f4/src/other/shared.ts#L15)
 
 ## Variables
 
@@ -144,7 +144,7 @@ Métodos de pago en español
 
 #### Defined in
 
-[src/order/order.ts:50](https://github.com/gatitolabs/ride-dbtypes/blob/c9f7d09/src/order/order.ts#L50)
+[src/order/order.ts:50](https://github.com/gatitolabs/ride-dbtypes/blob/77ee6f4/src/order/order.ts#L50)
 
 ___
 
@@ -156,4 +156,4 @@ Status de la Orden en español
 
 #### Defined in
 
-[src/order/order.ts:32](https://github.com/gatitolabs/ride-dbtypes/blob/c9f7d09/src/order/order.ts#L32)
+[src/order/order.ts:32](https://github.com/gatitolabs/ride-dbtypes/blob/77ee6f4/src/order/order.ts#L32)
