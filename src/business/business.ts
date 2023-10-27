@@ -64,4 +64,7 @@ export interface Business {
 
   /** fecha y hora de ultima actualizacion */
   lastUpdate: number;
+
+  /** token para los mensajes de la nube */
+  fcmToken: string;
 }

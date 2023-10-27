@@ -13,6 +13,7 @@ Representa un usuario ciclista del sistema
 - [created](Biker.md#created)
 - [distrito](Biker.md#distrito)
 - [email](Biker.md#email)
+- [fcmToken](Biker.md#fcmtoken)
 - [firebaseUserId](Biker.md#firebaseuserid)
 - [firstName](Biker.md#firstname)
 - [lastName](Biker.md#lastname)
@@ -30,7 +31,7 @@ Representa un usuario ciclista del sistema
 
 #### Defined in
 
-[src/biker/biker.ts:33](https://github.com/gatitolabs/ride-dbtypes/blob/c1fc7c5/src/biker/biker.ts#L33)
+[src/biker/biker.ts:33](https://github.com/gatitolabs/ride-dbtypes/blob/79c65fc/src/biker/biker.ts#L33)
 
 ___
 
@@ -42,7 +43,7 @@ numero de celular
 
 #### Defined in
 
-[src/biker/biker.ts:23](https://github.com/gatitolabs/ride-dbtypes/blob/c1fc7c5/src/biker/biker.ts#L23)
+[src/biker/biker.ts:23](https://github.com/gatitolabs/ride-dbtypes/blob/79c65fc/src/biker/biker.ts#L23)
 
 ___
 
@@ -54,7 +55,7 @@ fecha y hora de creacion
 
 #### Defined in
 
-[src/biker/biker.ts:38](https://github.com/gatitolabs/ride-dbtypes/blob/c1fc7c5/src/biker/biker.ts#L38)
+[src/biker/biker.ts:38](https://github.com/gatitolabs/ride-dbtypes/blob/79c65fc/src/biker/biker.ts#L38)
 
 ___
 
@@ -64,7 +65,7 @@ ___
 
 #### Defined in
 
-[src/biker/biker.ts:35](https://github.com/gatitolabs/ride-dbtypes/blob/c1fc7c5/src/biker/biker.ts#L35)
+[src/biker/biker.ts:35](https://github.com/gatitolabs/ride-dbtypes/blob/79c65fc/src/biker/biker.ts#L35)
 
 ___
 
@@ -76,7 +77,19 @@ correo electronico
 
 #### Defined in
 
-[src/biker/biker.ts:20](https://github.com/gatitolabs/ride-dbtypes/blob/c1fc7c5/src/biker/biker.ts#L20)
+[src/biker/biker.ts:20](https://github.com/gatitolabs/ride-dbtypes/blob/79c65fc/src/biker/biker.ts#L20)
+
+___
+
+### fcmToken
+
+• **fcmToken**: `string`
+
+token para los mensajes de la nube
+
+#### Defined in
+
+[src/biker/biker.ts:47](https://github.com/gatitolabs/ride-dbtypes/blob/79c65fc/src/biker/biker.ts#L47)
 
 ___
 
@@ -88,7 +101,7 @@ id de firebase auth
 
 #### Defined in
 
-[src/biker/biker.ts:11](https://github.com/gatitolabs/ride-dbtypes/blob/c1fc7c5/src/biker/biker.ts#L11)
+[src/biker/biker.ts:11](https://github.com/gatitolabs/ride-dbtypes/blob/79c65fc/src/biker/biker.ts#L11)
 
 ___
 
@@ -100,7 +113,7 @@ nombre
 
 #### Defined in
 
-[src/biker/biker.ts:14](https://github.com/gatitolabs/ride-dbtypes/blob/c1fc7c5/src/biker/biker.ts#L14)
+[src/biker/biker.ts:14](https://github.com/gatitolabs/ride-dbtypes/blob/79c65fc/src/biker/biker.ts#L14)
 
 ___
 
@@ -112,7 +125,7 @@ apellidos
 
 #### Defined in
 
-[src/biker/biker.ts:17](https://github.com/gatitolabs/ride-dbtypes/blob/c1fc7c5/src/biker/biker.ts#L17)
+[src/biker/biker.ts:17](https://github.com/gatitolabs/ride-dbtypes/blob/79c65fc/src/biker/biker.ts#L17)
 
 ___
 
@@ -124,7 +137,7 @@ fecha y hora de ultima actualizacion
 
 #### Defined in
 
-[src/biker/biker.ts:41](https://github.com/gatitolabs/ride-dbtypes/blob/c1fc7c5/src/biker/biker.ts#L41)
+[src/biker/biker.ts:41](https://github.com/gatitolabs/ride-dbtypes/blob/79c65fc/src/biker/biker.ts#L41)
 
 ___
 
@@ -136,7 +149,7 @@ URL de la foto de perfil (almacenada en Firebase Storage)
 
 #### Defined in
 
-[src/biker/biker.ts:26](https://github.com/gatitolabs/ride-dbtypes/blob/c1fc7c5/src/biker/biker.ts#L26)
+[src/biker/biker.ts:26](https://github.com/gatitolabs/ride-dbtypes/blob/79c65fc/src/biker/biker.ts#L26)
 
 ___
 
@@ -146,7 +159,7 @@ ___
 
 #### Defined in
 
-[src/biker/biker.ts:31](https://github.com/gatitolabs/ride-dbtypes/blob/c1fc7c5/src/biker/biker.ts#L31)
+[src/biker/biker.ts:31](https://github.com/gatitolabs/ride-dbtypes/blob/79c65fc/src/biker/biker.ts#L31)
 
 ___
 
@@ -158,7 +171,7 @@ status del ciclista, relacionado con la capacidad de recibir ordenes - ver [Bike
 
 #### Defined in
 
-[src/biker/biker.ts:29](https://github.com/gatitolabs/ride-dbtypes/blob/c1fc7c5/src/biker/biker.ts#L29)
+[src/biker/biker.ts:29](https://github.com/gatitolabs/ride-dbtypes/blob/79c65fc/src/biker/biker.ts#L29)
 
 ___
 
@@ -170,4 +183,4 @@ estado de la cuenta de usario ciclista (si fue o no aprobado por un usuario admi
 
 #### Defined in
 
-[src/biker/biker.ts:44](https://github.com/gatitolabs/ride-dbtypes/blob/c1fc7c5/src/biker/biker.ts#L44)
+[src/biker/biker.ts:44](https://github.com/gatitolabs/ride-dbtypes/blob/79c65fc/src/biker/biker.ts#L44)
