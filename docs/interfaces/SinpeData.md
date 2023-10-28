@@ -23,7 +23,7 @@ nombre de la persona dueña de la cuenta
 
 #### Defined in
 
-[src/admin/configItem.ts:39](https://github.com/gatitolabs/ride-dbtypes/blob/c1fc7c5/src/admin/configItem.ts#L39)
+[src/admin/configItem.ts:39](https://github.com/gatitolabs/ride-dbtypes/blob/79c65fc/src/admin/configItem.ts#L39)
 
 ___
 
@@ -35,7 +35,7 @@ apellidos de la persona dueña de la cuenta
 
 #### Defined in
 
-[src/admin/configItem.ts:42](https://github.com/gatitolabs/ride-dbtypes/blob/c1fc7c5/src/admin/configItem.ts#L42)
+[src/admin/configItem.ts:42](https://github.com/gatitolabs/ride-dbtypes/blob/79c65fc/src/admin/configItem.ts#L42)
 
 ___
 
@@ -47,7 +47,7 @@ cédula jurídica, física, dimex o otras de la persona dueña de la cuenta
 
 #### Defined in
 
-[src/admin/configItem.ts:36](https://github.com/gatitolabs/ride-dbtypes/blob/c1fc7c5/src/admin/configItem.ts#L36)
+[src/admin/configItem.ts:36](https://github.com/gatitolabs/ride-dbtypes/blob/79c65fc/src/admin/configItem.ts#L36)
 
 ___
 
@@ -59,4 +59,4 @@ número de teléfono a al que está asociada la cuenta
 
 #### Defined in
 
-[src/admin/configItem.ts:45](https://github.com/gatitolabs/ride-dbtypes/blob/c1fc7c5/src/admin/configItem.ts#L45)
+[src/admin/configItem.ts:45](https://github.com/gatitolabs/ride-dbtypes/blob/79c65fc/src/admin/configItem.ts#L45)
