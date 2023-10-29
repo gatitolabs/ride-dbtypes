@@ -30,8 +30,6 @@ export interface Business {
     currentLocation: Coords;
     /** estado de la cuenta de usario de un negocio (si fue o no aprobado por un usuario admin) - ver {@link UserStatus}*/
     userStatus: UserStatus;
-    /** promedio de ratings del negocio */
-    rating: number;
     /** contactos extra fuera del correo y telefono - ver {@link BusinessContact}*/
     contacts: BusinessContact[];
     /** correo electronico del negocio */

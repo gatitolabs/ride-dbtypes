@@ -24,4 +24,6 @@ export interface Product {
     lastUpdate: number;
     /** Indica si el producto fue borrado o no */
     deleted?: boolean;
+    /** Indica la cantidad de productos dispobibles */
+    amountAvailable: number;
 }
