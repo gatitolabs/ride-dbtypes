@@ -80,4 +80,6 @@ export interface Order {
     customerLastName: string;
     /** Reporte del ciclista */
     reportByBiker: string;
+    /** Código de confirmación de transferencia SINPE */
+    confirmationCode: string;
 }
