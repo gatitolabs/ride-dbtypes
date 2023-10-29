@@ -88,7 +88,7 @@ nombre de la aplicación RIDE
 
 #### Defined in
 
-[src/admin/configItem.ts:4](https://github.com/gatitolabs/ride-dbtypes/blob/feb355c/src/admin/configItem.ts#L4)
+[src/admin/configItem.ts:2](https://github.com/gatitolabs/ride-dbtypes/blob/de85d58/src/admin/configItem.ts#L2)
 
 ___
 
@@ -100,28 +100,4 @@ número de emergencia para comunicarse con RIDE dashboard
 
 #### Defined in
 
-[src/admin/configItem.ts:10](https://github.com/gatitolabs/ride-dbtypes/blob/feb355c/src/admin/configItem.ts#L10)
-
-___
-
-### phoneInformation
-
-• **phoneInformation**: `string`
-
-número para obtener información sobre la aplicación RIDE
-
-#### Defined in
-
-[src/admin/configItem.ts:13](https://github.com/gatitolabs/ride-dbtypes/blob/feb355c/src/admin/configItem.ts#L13)
-
-___
-
-### sinpeData
-
-• **sinpeData**: [`SinpeData`](SinpeData.md)
-
-objeto con los datos de sinpe móvil - ver [SinpeData](SinpeData.md)
-
-#### Defined in
-
-[src/admin/configItem.ts:25](https://github.com/gatitolabs/ride-dbtypes/blob/feb355c/src/admin/configItem.ts#L25)
+[src/admin/configItem.ts:3](https://github.com/gatitolabs/ride-dbtypes/blob/de85d58/src/admin/configItem.ts#L3)

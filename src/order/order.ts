@@ -1,5 +1,6 @@
-import {Coords} from '../..';
+import { Coords } from '../..';
 import {Rating} from '../..';
+
 
 /**
  * Status de la Orden
@@ -131,4 +132,7 @@ export interface Order {
 
   /** Reporte del ciclista */
   reportByBiker: string;
+
+  /** Código de confirmación de transferencia SINPE */
+  confirmationCode: string;
 }
