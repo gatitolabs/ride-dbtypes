@@ -35,4 +35,7 @@ export interface AdminUser {
 
   /** estado de la cuenta de usario administrado (si fue o no aprobado por un usuario admin ya registrado) - ver {@link UserStatus} */
   userStatus: UserStatus;
+
+  /** token para los mensajes de la nube */
+  fcmToken: string;
 }
