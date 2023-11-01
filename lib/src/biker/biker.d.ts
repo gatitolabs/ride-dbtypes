@@ -30,4 +30,8 @@ export interface Biker {
     userStatus: UserStatus;
     /** token para los mensajes de la nube */
     fcmToken: string;
+    /** latitud de la posición actual del biker */
+    latitude: number;
+    /**longitud de la posición actual del biker */
+    longitude: number;
 }

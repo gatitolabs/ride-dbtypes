@@ -40,7 +40,7 @@ Firebase User Id del biker (de firebase auth)
 
 #### Defined in
 
-[src/order/order.ts:81](https://github.com/gatitolabs/ride-dbtypes/blob/de85d58/src/order/order.ts#L81)
+[src/order/order.ts:83](https://github.com/gatitolabs/ride-dbtypes/blob/eb52f4d/src/order/order.ts#L83)
 
 ___
 
@@ -52,7 +52,7 @@ Firebase User Id del negocio (de firebase auth)
 
 #### Defined in
 
-[src/order/order.ts:78](https://github.com/gatitolabs/ride-dbtypes/blob/de85d58/src/order/order.ts#L78)
+[src/order/order.ts:80](https://github.com/gatitolabs/ride-dbtypes/blob/eb52f4d/src/order/order.ts#L80)
 
 ___
 
@@ -64,7 +64,7 @@ Código de confirmación de transferencia SINPE
 
 #### Defined in
 
-[src/order/order.ts:132](https://github.com/gatitolabs/ride-dbtypes/blob/de85d58/src/order/order.ts#L132)
+[src/order/order.ts:137](https://github.com/gatitolabs/ride-dbtypes/blob/eb52f4d/src/order/order.ts#L137)
 
 ___
 
@@ -76,7 +76,7 @@ fecha y hora de creacion
 
 #### Defined in
 
-[src/order/order.ts:114](https://github.com/gatitolabs/ride-dbtypes/blob/de85d58/src/order/order.ts#L114)
+[src/order/order.ts:119](https://github.com/gatitolabs/ride-dbtypes/blob/eb52f4d/src/order/order.ts#L119)
 
 ___
 
@@ -88,7 +88,7 @@ nombre completo del cliente
 
 #### Defined in
 
-[src/order/order.ts:123](https://github.com/gatitolabs/ride-dbtypes/blob/de85d58/src/order/order.ts#L123)
+[src/order/order.ts:128](https://github.com/gatitolabs/ride-dbtypes/blob/eb52f4d/src/order/order.ts#L128)
 
 ___
 
@@ -100,7 +100,7 @@ Firebase User Id del usuario (de firebase auth)
 
 #### Defined in
 
-[src/order/order.ts:75](https://github.com/gatitolabs/ride-dbtypes/blob/de85d58/src/order/order.ts#L75)
+[src/order/order.ts:77](https://github.com/gatitolabs/ride-dbtypes/blob/eb52f4d/src/order/order.ts#L77)
 
 ___
 
@@ -112,7 +112,7 @@ apellidos del cliente
 
 #### Defined in
 
-[src/order/order.ts:126](https://github.com/gatitolabs/ride-dbtypes/blob/de85d58/src/order/order.ts#L126)
+[src/order/order.ts:131](https://github.com/gatitolabs/ride-dbtypes/blob/eb52f4d/src/order/order.ts#L131)
 
 ___
 
@@ -124,7 +124,7 @@ coordenadas de le entrega (se sacan de la ubicacion actual del Customer)
 
 #### Defined in
 
-[src/order/order.ts:117](https://github.com/gatitolabs/ride-dbtypes/blob/de85d58/src/order/order.ts#L117)
+[src/order/order.ts:122](https://github.com/gatitolabs/ride-dbtypes/blob/eb52f4d/src/order/order.ts#L122)
 
 ___
 
@@ -136,7 +136,7 @@ Direccion de entrega de la orden
 
 #### Defined in
 
-[src/order/order.ts:102](https://github.com/gatitolabs/ride-dbtypes/blob/de85d58/src/order/order.ts#L102)
+[src/order/order.ts:107](https://github.com/gatitolabs/ride-dbtypes/blob/eb52f4d/src/order/order.ts#L107)
 
 ___
 
@@ -148,7 +148,7 @@ Distancia entre la direccion de origen y destino
 
 #### Defined in
 
-[src/order/order.ts:108](https://github.com/gatitolabs/ride-dbtypes/blob/de85d58/src/order/order.ts#L108)
+[src/order/order.ts:113](https://github.com/gatitolabs/ride-dbtypes/blob/eb52f4d/src/order/order.ts#L113)
 
 ___
 
@@ -160,7 +160,7 @@ lista de items en la orden - ver [OrderItem](OrderItem.md)
 
 #### Defined in
 
-[src/order/order.ts:90](https://github.com/gatitolabs/ride-dbtypes/blob/de85d58/src/order/order.ts#L90)
+[src/order/order.ts:92](https://github.com/gatitolabs/ride-dbtypes/blob/eb52f4d/src/order/order.ts#L92)
 
 ___
 
@@ -172,7 +172,7 @@ Costo de los items de la orden (sin envio)
 
 #### Defined in
 
-[src/order/order.ts:96](https://github.com/gatitolabs/ride-dbtypes/blob/de85d58/src/order/order.ts#L96)
+[src/order/order.ts:98](https://github.com/gatitolabs/ride-dbtypes/blob/eb52f4d/src/order/order.ts#L98)
 
 ___
 
@@ -184,7 +184,7 @@ fecha y hora de ultima actualizacion
 
 #### Defined in
 
-[src/order/order.ts:120](https://github.com/gatitolabs/ride-dbtypes/blob/de85d58/src/order/order.ts#L120)
+[src/order/order.ts:125](https://github.com/gatitolabs/ride-dbtypes/blob/eb52f4d/src/order/order.ts#L125)
 
 ___
 
@@ -196,7 +196,7 @@ Metodo de pago de la orden - ver [PaymentMethod](../modules.md#paymentmethod)
 
 #### Defined in
 
-[src/order/order.ts:87](https://github.com/gatitolabs/ride-dbtypes/blob/de85d58/src/order/order.ts#L87)
+[src/order/order.ts:89](https://github.com/gatitolabs/ride-dbtypes/blob/eb52f4d/src/order/order.ts#L89)
 
 ___
 
@@ -208,7 +208,7 @@ Direccion de origen de la orden
 
 #### Defined in
 
-[src/order/order.ts:105](https://github.com/gatitolabs/ride-dbtypes/blob/de85d58/src/order/order.ts#L105)
+[src/order/order.ts:110](https://github.com/gatitolabs/ride-dbtypes/blob/eb52f4d/src/order/order.ts#L110)
 
 ___
 
@@ -220,7 +220,7 @@ Calificanes de las órdenes
 
 #### Defined in
 
-[src/order/order.ts:111](https://github.com/gatitolabs/ride-dbtypes/blob/de85d58/src/order/order.ts#L111)
+[src/order/order.ts:116](https://github.com/gatitolabs/ride-dbtypes/blob/eb52f4d/src/order/order.ts#L116)
 
 ___
 
@@ -232,7 +232,7 @@ Reporte del ciclista
 
 #### Defined in
 
-[src/order/order.ts:129](https://github.com/gatitolabs/ride-dbtypes/blob/de85d58/src/order/order.ts#L129)
+[src/order/order.ts:134](https://github.com/gatitolabs/ride-dbtypes/blob/eb52f4d/src/order/order.ts#L134)
 
 ___
 
@@ -244,7 +244,7 @@ Costo del envio
 
 #### Defined in
 
-[src/order/order.ts:99](https://github.com/gatitolabs/ride-dbtypes/blob/de85d58/src/order/order.ts#L99)
+[src/order/order.ts:101](https://github.com/gatitolabs/ride-dbtypes/blob/eb52f4d/src/order/order.ts#L101)
 
 ___
 
@@ -256,7 +256,19 @@ Status de la orden - ver [OrderStatus](../modules.md#orderstatus)
 
 #### Defined in
 
-[src/order/order.ts:84](https://github.com/gatitolabs/ride-dbtypes/blob/de85d58/src/order/order.ts#L84)
+[src/order/order.ts:86](https://github.com/gatitolabs/ride-dbtypes/blob/eb52f4d/src/order/order.ts#L86)
+
+___
+
+### tip
+
+• **tip**: `number`
+
+Propina para el ciclista
+
+#### Defined in
+
+[src/order/order.ts:104](https://github.com/gatitolabs/ride-dbtypes/blob/eb52f4d/src/order/order.ts#L104)
 
 ___
 
@@ -268,4 +280,4 @@ Costo total de la orden
 
 #### Defined in
 
-[src/order/order.ts:93](https://github.com/gatitolabs/ride-dbtypes/blob/de85d58/src/order/order.ts#L93)
+[src/order/order.ts:95](https://github.com/gatitolabs/ride-dbtypes/blob/eb52f4d/src/order/order.ts#L95)
