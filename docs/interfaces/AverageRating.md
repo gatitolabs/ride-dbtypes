@@ -25,55 +25,7 @@ Puntaje promedio => sumOfRatings / numberOfRatings
 
 #### Defined in
 
-[src/order/rating.ts:45](https://github.com/gatitolabs/ride-dbtypes/blob/de85d58/src/order/rating.ts#L45)
-
-___
-
-### averageSentimentScore
-
-• **averageSentimentScore**: `number`
-
-Puntaje promedio de sentimiento => sumOfSentimentScore / numberOfRatings
-
-#### Defined in
-
-[src/order/rating.ts:57](https://github.com/gatitolabs/ride-dbtypes/blob/de85d58/src/order/rating.ts#L57)
-
-___
-
-### businessId
-
-• **businessId**: `string`
-
-Firebase User Id del negocio (de firebase auth)
-
-#### Defined in
-
-[src/order/rating.ts:42](https://github.com/gatitolabs/ride-dbtypes/blob/de85d58/src/order/rating.ts#L42)
-
-___
-
-### created
-
-• **created**: `number`
-
-fecha y hora de creacion
-
-#### Defined in
-
-[src/order/rating.ts:60](https://github.com/gatitolabs/ride-dbtypes/blob/de85d58/src/order/rating.ts#L60)
-
-___
-
-### lastUpdate
-
-• **lastUpdate**: `number`
-
-fecha y hora de ultima actualizacion
-
-#### Defined in
-
-[src/order/rating.ts:63](https://github.com/gatitolabs/ride-dbtypes/blob/de85d58/src/order/rating.ts#L63)
+[src/rating/averageRating.ts:20](https://github.com/gatitolabs/ride-dbtypes/blob/eb52f4d/src/rating/averageRating.ts#L20)
 
 ___
 
@@ -85,7 +37,31 @@ Cantidad de ratings asignados a este usuario
 
 #### Defined in
 
-[src/order/rating.ts:51](https://github.com/gatitolabs/ride-dbtypes/blob/de85d58/src/order/rating.ts#L51)
+[src/rating/averageRating.ts:17](https://github.com/gatitolabs/ride-dbtypes/blob/eb52f4d/src/rating/averageRating.ts#L17)
+
+___
+
+### ratedUserId
+
+• **ratedUserId**: `string`
+
+Firebase User Id del usuario calificado (de firebase auth).
+
+#### Defined in
+
+[src/rating/averageRating.ts:8](https://github.com/gatitolabs/ride-dbtypes/blob/eb52f4d/src/rating/averageRating.ts#L8)
+
+___
+
+### ratedUserType
+
+• **ratedUserType**: [`UserType`](../modules.md#usertype)
+
+Tipo del usuario calificado (customer, business, biker, etc.).
+
+#### Defined in
+
+[src/rating/averageRating.ts:11](https://github.com/gatitolabs/ride-dbtypes/blob/eb52f4d/src/rating/averageRating.ts#L11)
 
 ___
 
@@ -97,16 +73,4 @@ Suma total de todos los ratings asignados a este usuario
 
 #### Defined in
 
-[src/order/rating.ts:48](https://github.com/gatitolabs/ride-dbtypes/blob/de85d58/src/order/rating.ts#L48)
-
-___
-
-### sumOfSentimentScore
-
-• **sumOfSentimentScore**: `number`
-
-Suma total de todos los puntajes de sentimiento asignados reviews de este negocio
-
-#### Defined in
-
-[src/order/rating.ts:54](https://github.com/gatitolabs/ride-dbtypes/blob/de85d58/src/order/rating.ts#L54)
+[src/rating/averageRating.ts:14](https://github.com/gatitolabs/ride-dbtypes/blob/eb52f4d/src/rating/averageRating.ts#L14)
