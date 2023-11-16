@@ -10,6 +10,7 @@ export { Product } from './src/product/product';
 export { Tag } from './src/product/tag';
 export { ConfigItem, SinpeData } from './src/admin/configItem';
 export { UserStatus, Coords, UserType } from './src/other/shared';
+export { Message } from "./src/order/chat";
 /**
  * Colecciones de Firestore
  */
@@ -26,6 +27,8 @@ export declare enum FirestoreCollections {
     orders = "orders",
     /** Coleccion de {@link Rating} */
     ratings = "ratings",
+    /** Coleccion de {@link Chat} */
+    chat = "chat",
     /** Coleccion de {@link AverageRating} */
     averageRating = "averageRating",
     /** Coleccion de {@link DeliveryAvailable} */
