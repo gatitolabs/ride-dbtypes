@@ -1,6 +1,6 @@
-import { Coords } from '../..';
+import {Coords} from '../..';
 import {Rating} from '../..';
-
+import { Message} from "./chat";
 
 /**
  * Status de la Orden
@@ -73,6 +73,9 @@ export interface OrderItem {
  * Representa una orden dentro del sistema
  */
 export interface Order {
+  /** Chat para comunicacion entre el usuario y el biker */
+  chat: Message[] | null;
+  
   /** Firebase User Id del usuario (de firebase auth) */
   customerId: string;
 
