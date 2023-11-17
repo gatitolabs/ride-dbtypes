@@ -25,7 +25,7 @@ Puntaje promedio => sumOfRatings / numberOfRatings
 
 #### Defined in
 
-[src/rating/averageRating.ts:20](https://github.com/gatitolabs/ride-dbtypes/blob/eb52f4d/src/rating/averageRating.ts#L20)
+[src/rating/averageRating.ts:20](https://github.com/gatitolabs/ride-dbtypes/blob/e4ca18b/src/rating/averageRating.ts#L20)
 
 ___
 
@@ -37,7 +37,7 @@ Cantidad de ratings asignados a este usuario
 
 #### Defined in
 
-[src/rating/averageRating.ts:17](https://github.com/gatitolabs/ride-dbtypes/blob/eb52f4d/src/rating/averageRating.ts#L17)
+[src/rating/averageRating.ts:17](https://github.com/gatitolabs/ride-dbtypes/blob/e4ca18b/src/rating/averageRating.ts#L17)
 
 ___
 
@@ -49,7 +49,7 @@ Firebase User Id del usuario calificado (de firebase auth).
 
 #### Defined in
 
-[src/rating/averageRating.ts:8](https://github.com/gatitolabs/ride-dbtypes/blob/eb52f4d/src/rating/averageRating.ts#L8)
+[src/rating/averageRating.ts:8](https://github.com/gatitolabs/ride-dbtypes/blob/e4ca18b/src/rating/averageRating.ts#L8)
 
 ___
 
@@ -61,7 +61,7 @@ Tipo del usuario calificado (customer, business, biker, etc.).
 
 #### Defined in
 
-[src/rating/averageRating.ts:11](https://github.com/gatitolabs/ride-dbtypes/blob/eb52f4d/src/rating/averageRating.ts#L11)
+[src/rating/averageRating.ts:11](https://github.com/gatitolabs/ride-dbtypes/blob/e4ca18b/src/rating/averageRating.ts#L11)
 
 ___
 
@@ -73,4 +73,4 @@ Suma total de todos los ratings asignados a este usuario
 
 #### Defined in
 
-[src/rating/averageRating.ts:14](https://github.com/gatitolabs/ride-dbtypes/blob/eb52f4d/src/rating/averageRating.ts#L14)
+[src/rating/averageRating.ts:14](https://github.com/gatitolabs/ride-dbtypes/blob/e4ca18b/src/rating/averageRating.ts#L14)
