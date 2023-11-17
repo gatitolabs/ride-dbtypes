@@ -74,7 +74,7 @@ export interface OrderItem {
  */
 export interface Order {
   /** Chat para comunicacion entre el usuario y el biker */
-  chat: Message[] | null;
+  chat?: Message[];
   
   /** Firebase User Id del usuario (de firebase auth) */
   customerId: string;

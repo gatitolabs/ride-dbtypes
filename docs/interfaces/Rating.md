@@ -25,7 +25,7 @@ Comentario recibido
 
 #### Defined in
 
-[src/rating/rating.ts:16](https://github.com/gatitolabs/ride-dbtypes/blob/9baa126/src/rating/rating.ts#L16)
+[src/rating/rating.ts:16](https://github.com/gatitolabs/ride-dbtypes/blob/e4ca18b/src/rating/rating.ts#L16)
 
 ___
 
@@ -37,7 +37,7 @@ Firebase User Id del usuario calificado (de firebase auth).
 
 #### Defined in
 
-[src/rating/rating.ts:19](https://github.com/gatitolabs/ride-dbtypes/blob/9baa126/src/rating/rating.ts#L19)
+[src/rating/rating.ts:19](https://github.com/gatitolabs/ride-dbtypes/blob/e4ca18b/src/rating/rating.ts#L19)
 
 ___
 
@@ -49,7 +49,7 @@ Tipo del usuario calificado (customer, business, biker, etc.).
 
 #### Defined in
 
-[src/rating/rating.ts:22](https://github.com/gatitolabs/ride-dbtypes/blob/9baa126/src/rating/rating.ts#L22)
+[src/rating/rating.ts:22](https://github.com/gatitolabs/ride-dbtypes/blob/e4ca18b/src/rating/rating.ts#L22)
 
 ___
 
@@ -61,7 +61,7 @@ Firebase User Id del usuario que proporcionó el rating
 
 #### Defined in
 
-[src/rating/rating.ts:7](https://github.com/gatitolabs/ride-dbtypes/blob/9baa126/src/rating/rating.ts#L7)
+[src/rating/rating.ts:7](https://github.com/gatitolabs/ride-dbtypes/blob/e4ca18b/src/rating/rating.ts#L7)
 
 ___
 
@@ -73,7 +73,7 @@ Tipo del usuario que proporcionó el rating
 
 #### Defined in
 
-[src/rating/rating.ts:10](https://github.com/gatitolabs/ride-dbtypes/blob/9baa126/src/rating/rating.ts#L10)
+[src/rating/rating.ts:10](https://github.com/gatitolabs/ride-dbtypes/blob/e4ca18b/src/rating/rating.ts#L10)
 
 ___
 
@@ -85,4 +85,4 @@ Valor numérico del rating (puede ser una puntuación, estrella, etc.)
 
 #### Defined in
 
-[src/rating/rating.ts:13](https://github.com/gatitolabs/ride-dbtypes/blob/9baa126/src/rating/rating.ts#L13)
+[src/rating/rating.ts:13](https://github.com/gatitolabs/ride-dbtypes/blob/e4ca18b/src/rating/rating.ts#L13)
