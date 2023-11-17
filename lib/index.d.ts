@@ -27,7 +27,7 @@ export declare enum FirestoreCollections {
     orders = "orders",
     /** Coleccion de {@link Rating} */
     ratings = "ratings",
-    /** Coleccion de {@link Chat} */
+    /** Coleccion de {@link Message} */
     chat = "chat",
     /** Coleccion de {@link AverageRating} */
     averageRating = "averageRating",
