@@ -17,4 +17,4 @@ Proyecto RIDE: Documentos NoSQL para Firestore
 
 ## Estados Orden (definidos el 29 de Octubre de 2021)
 
-![Estados Orden](RIDE-EstadosOrden.jpg)
+![Estados Orden](RIDE-EstadosOrden.jpg) 
